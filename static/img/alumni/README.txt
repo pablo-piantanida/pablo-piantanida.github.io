@@ -1,0 +1,2 @@
+Locally stored portraits provided by site owner. Included: Joffrey Villard, Patricia Layec, Arash Behboodi, German Bassi, Maggie Mhanna, Gil Katz, Zuxing Li, Kai Wan, Andres Altieri, Pierre Colombo
+Other alumni retain text-only cards until verified image files are available.

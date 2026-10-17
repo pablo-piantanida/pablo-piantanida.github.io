@@ -1,0 +1,25 @@
+main:
+  - name: Home
+    url: '/#about'
+    weight: 10
+  - name: Openings
+    url: '/#openings'
+    weight: 15
+  - name: Research
+    url: '/#research'
+    weight: 20
+  - name: Publications
+    url: '/publications/'
+    weight: 30
+  - name: People
+    url: '/#people'
+    weight: 35
+  - name: Talks
+    url: '/#talks'
+    weight: 38
+  - name: Leadership
+    url: '/#leadership'
+    weight: 40
+  - name: Contact
+    url: '/#contact'
+    weight: 50

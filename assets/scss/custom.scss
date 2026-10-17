@@ -1,0 +1,352 @@
+/* Pablo Piantanida — Phase 2 homepage */
+:root { --pp-blue:#173b63; --pp-ink:#202a34; --pp-muted:#586676; }
+.navbar-brand {font-weight:700; letter-spacing:-.025em;}
+.pp-hero {display:grid;grid-template-columns:minmax(0,1.45fr) minmax(250px,.85fr);gap:clamp(2rem,6vw,6rem);align-items:center;max-width:1140px;margin:0 auto;padding:2.5rem 0 2rem;text-align:left;}
+.pp-hero-copy {min-width:0;}
+.pp-eyebrow {font-size:.73rem;letter-spacing:.15em;color:var(--pp-blue);font-weight:750;margin:0 0 1.1rem;}
+.pp-hero h1 {font-size:clamp(2.6rem,4.8vw,4.4rem);font-weight:750;line-height:1.08;letter-spacing:-.045em;margin:0 0 1.15rem;color:var(--pp-ink);}
+.pp-role {font-size:clamp(.94rem,1.3vw,1.07rem);line-height:1.65;color:var(--pp-muted);margin-bottom:2rem;}
+.pp-hero h2 {font-size:clamp(1.35rem,2.4vw,2.05rem);line-height:1.34;letter-spacing:-.025em;font-weight:680;color:var(--pp-blue);margin:0 0 1.15rem;}
+.pp-hero h2 em {font-style:normal;}
+.pp-summary {font-size:1.05rem;line-height:1.8;color:#394653;max-width:660px;}
+.pp-actions {display:flex;align-items:center;gap:1.3rem;flex-wrap:wrap;margin:1.8rem 0;}
+.pp-button {background:var(--pp-blue);color:#fff!important;padding:.78rem 1.15rem;border-radius:5px;text-decoration:none!important;font-size:.94rem;font-weight:650;}
+.pp-button:hover {background:#245887;}
+.pp-textlink {font-size:.95rem;font-weight:650;color:var(--pp-blue);text-decoration:none!important;}
+.pp-affiliations {font-size:.88rem;color:var(--pp-muted);margin:1.4rem 0 .45rem;}
+.pp-social {font-size:.86rem;color:var(--pp-muted);}
+.pp-social a {color:var(--pp-blue);}
+.pp-portrait-wrap {align-self:start;padding-top:1.2rem;}
+.pp-portrait {display:block;width:100%;max-width:385px;aspect-ratio:4/5;object-fit:cover;object-position:center 35%;border-radius:8px;box-shadow:0 12px 35px rgba(21,43,65,.10);}
+.pp-caption {font-size:.8rem;color:var(--pp-muted);margin-top:.75rem;text-align:right;max-width:385px;}
+section.home-section {padding-top:55px;padding-bottom:55px;}
+@media(max-width:767px){.pp-hero{grid-template-columns:1fr;gap:1.4rem;padding-top:.8rem;}.pp-portrait-wrap{grid-row:1;padding-top:0;}.pp-portrait{max-width:260px;aspect-ratio:1/1;}.pp-caption{text-align:left}.pp-hero h1{font-size:2.65rem}.pp-summary{font-size:1rem}.pp-actions{gap:.9rem}}
+
+/* Phase 3: refined hierarchy, breathing room and portrait balance */
+.pp-hero {grid-template-columns:minmax(0,1.55fr) minmax(245px,.78fr);gap:clamp(2.5rem,5.2vw,5.5rem);align-items:center;padding-top:1.8rem;}
+.pp-hero h1 {font-size:clamp(2.8rem,4.5vw,4.15rem);margin-bottom:1.3rem;}
+.pp-role {font-size:clamp(.94rem,1.2vw,1.04rem);line-height:1.7;margin-bottom:2.3rem;}
+.pp-hero h2 {font-size:clamp(1.25rem,2.05vw,1.8rem);line-height:1.4;max-width:650px;margin-bottom:1.15rem;}
+.pp-summary {font-size:1rem;line-height:1.73;max-width:670px;}
+.pp-affiliations {margin:1.35rem 0 .6rem;font-size:.9rem;}
+.pp-actions {margin:1.2rem 0 1.25rem;}
+.pp-portrait-wrap {align-self:center;padding-top:0;}
+.pp-portrait {max-width:345px;aspect-ratio:4/5;object-position:center 32%;border-radius:8px;}
+.pp-caption {max-width:345px;}
+@media(max-width:767px){.pp-hero{grid-template-columns:1fr;gap:1.5rem;padding-top:.8rem}.pp-portrait-wrap{grid-row:1}.pp-portrait{max-width:250px;aspect-ratio:1/1}.pp-hero h1{font-size:2.65rem}.pp-hero h2{font-size:1.45rem}.pp-role{margin-bottom:1.4rem}}
+
+/* Version 4 — institutional identities and scientific content */
+.pp-employer-logos {display:flex;align-items:center;gap:1.5rem;max-width:500px;margin:-.7rem 0 1.8rem;}
+.pp-employer-logos img {display:block;width:72%;max-width:300px;max-height:58px;object-fit:contain;}
+.pp-employer-logos .pp-cnrs-logo {max-height:54px;max-width:54px;flex:0 0 auto;}
+.pp-lab-logos {display:flex;align-items:center;justify-content:space-between;gap:1.2rem;max-width:345px;margin:1rem auto .3rem;}
+.pp-lab-logos img {display:block;max-width:57%;height:auto;max-height:52px;object-fit:contain;}
+.pp-lab-logos img:last-child {max-width:35%;max-height:42px;}
+.pp-research-grid {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.2rem;margin:1.5rem 0 1.6rem;text-align:left;}
+.pp-research-card {background:#f8fafc;border:1px solid #e5ebf0;border-radius:9px;padding:1.7rem 1.45rem 1.5rem;min-width:0;transition:border-color .2s,transform .2s;}
+.pp-research-card:hover {border-color:#aac0d4;transform:translateY(-2px);}
+.pp-card-numeral {font-size:2.25rem;line-height:1;font-family:Georgia,serif;color:var(--pp-blue);margin-bottom:1.25rem;}
+.pp-research-card h3 {font-size:1.16rem;line-height:1.35;font-weight:700;color:#173b63;margin:0 0 .9rem;}
+.pp-research-card p {font-size:.91rem;line-height:1.65;color:#566473;margin:0 0 .8rem;}
+.pp-research-card .pp-card-question {color:#263b4e;font-weight:600;}
+.pp-applications {font-size:.94rem;color:#586676;}
+.pp-section-lead {color:#586676;font-size:.98rem;margin-bottom:1.3rem;}
+.pp-publications {list-style:none;padding:0;margin:1rem 0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:2.2rem;}
+.pp-pub {padding:.9rem 0 1.1rem;border-bottom:1px solid #e4eaf0;min-width:0;}
+.pp-pub a {font-size:1rem;line-height:1.45;font-weight:650;color:#173b63;text-decoration:none!important;display:block;}
+.pp-pub a:hover {text-decoration:underline!important;}
+.pp-pub-meta {display:block;margin-top:.28rem;font-size:.84rem;color:#647384;}
+.pp-publications-more {margin-top:1.5rem;}
+.pp-publications-more a {font-weight:700;color:#173b63;text-decoration:none;}
+.pp-bibliography {max-width:1000px;margin:0 auto;padding:1.5rem 0 4rem;}
+.pp-bib-intro {color:#536374;max-width:760px;}
+.pp-bib-download {margin:1.7rem 0 3rem;}
+.pp-bibliography h2 {font-size:1.65rem;color:#173b63;margin:2.5rem 0 1.1rem;padding-bottom:.6rem;border-bottom:1px solid #dce5ed;}
+.pp-bib-count {font-size:.85rem;color:#7b8894;font-weight:400;}
+.pp-bib-list {list-style:none;margin:0;padding:0;}
+.pp-bib-list li {padding:.65rem 0;font-size:.9rem;line-height:1.6;border-bottom:1px solid #eef1f5;overflow-wrap:anywhere;}
+.pp-bib-id {font-size:.8rem;font-weight:700;color:#173b63;margin-right:.5rem;}
+@media(max-width:850px){.pp-research-grid{grid-template-columns:1fr}.pp-publications{grid-template-columns:1fr}.pp-employer-logos{gap:1rem}.pp-employer-logos img{max-height:44px}.pp-employer-logos .pp-cnrs-logo{max-height:42px;max-width:42px}}
+@media(max-width:767px){.pp-lab-logos{margin-left:0;margin-right:0;max-width:250px}.pp-portrait-wrap{justify-self:start}}
+
+/* Version 5 — research backdrop, elevated portrait, and balanced institutional identities.
+   Uses basic CSS supported by Hugo Extended 0.108 / Wowchemy 5.7. */
+.pp-hero {max-width:1280px;grid-template-columns:minmax(0,1.14fr) minmax(0,1fr);gap:2rem;align-items:start;padding-top:1.4rem;}
+.pp-hero-copy {position:relative;z-index:2;}
+.pp-hero h1 {color:#071d45;}
+.pp-affiliations-top {margin:-1.25rem 0 1.15rem;}
+.pp-employer-logos {display:flex;align-items:center;justify-content:flex-start;gap:1.2rem;max-width:590px;margin:0 0 1.75rem;}
+.pp-employer-logos img {width:auto;max-width:none;object-fit:contain;flex:0 1 auto;}
+.pp-employer-logos .pp-cs-logo {height:77px;max-height:77px;max-width:36%;}
+.pp-employer-logos .pp-saclay-logo {height:49px;max-height:49px;max-width:33%;}
+.pp-employer-logos .pp-cnrs-logo {height:64px;max-height:64px;max-width:17%;}
+.pp-portrait-wrap {position:relative;min-height:590px;align-self:stretch;padding-top:0;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;}
+.pp-research-art {position:absolute;top:-1.4rem;right:-2rem;width:125%;height:475px;background-image:linear-gradient(to right,#fff 0%,rgba(255,255,255,.45) 21%,rgba(255,255,255,0) 47%),linear-gradient(to bottom,rgba(255,255,255,0) 65%,#fff 100%),url('/images/research-background.jpg');background-size:cover;background-position:55% center;z-index:0;pointer-events:none;}
+.pp-portrait {position:relative;z-index:1;width:215px;max-width:215px;height:240px;aspect-ratio:auto;object-fit:cover;object-position:center 28%;border-radius:9px;border:2px solid rgba(255,255,255,.85);box-shadow:0 8px 24px rgba(12,40,65,.16);margin-top:165px;margin-left:18%;}
+.pp-lab-logos {position:relative;z-index:1;display:flex;align-items:center;justify-content:center;gap:1.4rem;width:100%;max-width:365px;margin:1.3rem auto .35rem;}
+.pp-lab-logos img {width:auto;max-width:57%;max-height:55px;object-fit:contain;}
+.pp-lab-logos img:last-child {max-width:34%;max-height:49px;}
+.pp-caption {position:relative;z-index:1;text-align:center;max-width:365px;width:100%;margin:.4rem auto 0;}
+@media(max-width:991px){.pp-hero{grid-template-columns:minmax(0,1fr) minmax(0,.75fr);gap:1rem}.pp-portrait-wrap{min-height:520px}.pp-research-art{height:390px;right:-1rem}.pp-portrait{margin-top:140px;margin-left:0;width:195px;height:220px}.pp-employer-logos{gap:.8rem}.pp-employer-logos .pp-cs-logo{height:62px}.pp-employer-logos .pp-saclay-logo{height:42px}.pp-employer-logos .pp-cnrs-logo{height:52px}}
+@media(max-width:767px){.pp-hero{grid-template-columns:1fr;gap:1rem}.pp-hero-copy{grid-row:1}.pp-portrait-wrap{grid-row:2;min-height:430px;max-width:500px;width:100%;justify-self:center}.pp-research-art{top:0;right:0;width:100%;height:310px;background-position:60% center}.pp-portrait{margin:110px 0 0 16%;width:165px;height:185px}.pp-lab-logos{max-width:320px;margin-top:1rem}.pp-lab-logos img{max-height:48px}.pp-lab-logos img:last-child{max-height:40px}.pp-employer-logos{gap:.6rem;flex-wrap:nowrap}.pp-employer-logos .pp-cs-logo{height:58px}.pp-employer-logos .pp-saclay-logo{height:38px}.pp-employer-logos .pp-cnrs-logo{height:46px}.pp-affiliations-top{margin:-.7rem 0 1rem}}
+
+
+/* Version 6: separate identity/portrait band and research/artwork band. */
+.pp-v6 {max-width:1280px;margin:0 auto;text-align:left;}
+.pp-v6-intro {display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:clamp(1.5rem,4vw,4rem);align-items:center;padding:1.5rem 0 1.9rem;}
+.pp-v6-identity {min-width:0;}
+.pp-v6 h1 {font-size:clamp(2.7rem,4.5vw,4.15rem);line-height:1.08;letter-spacing:-.045em;color:#071d45;font-weight:750;margin:0 0 1rem;}
+.pp-v6 .pp-role {margin:0 0 1.1rem;line-height:1.65;}
+.pp-v6 .pp-affiliations-top {margin:0 0 1.15rem;}
+.pp-v6 .pp-employer-logos {margin:0;max-width:570px;gap:1.2rem;}
+.pp-v6-profile {display:flex;align-items:center;justify-content:center;gap:clamp(.9rem,2vw,2rem);min-width:0;}
+.pp-v6-photo {width:clamp(165px,17vw,235px);height:clamp(205px,21vw,285px);flex:0 0 auto;object-fit:cover;object-position:center 28%;border-radius:9px;box-shadow:0 8px 22px rgba(17,40,63,.13);}
+.pp-v6-profile-affiliations {flex:1 1 auto;min-width:0;max-width:350px;}
+.pp-v6 .pp-lab-logos {width:100%;max-width:340px;margin:0 auto .65rem;gap:1rem;justify-content:center;}
+.pp-v6 .pp-lab-logos img {max-width:54%;max-height:62px;height:auto;width:auto;}
+.pp-v6 .pp-lab-logos img:last-child {max-width:38%;max-height:51px;}
+.pp-v6 .pp-caption {max-width:none;width:auto;text-align:center;margin:.6rem 0 0;}
+.pp-v6-research {display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);align-items:stretch;gap:0;min-height:420px;position:relative;}
+.pp-v6-research-copy {padding:2.1rem 1.4rem 1.5rem 0;min-width:0;position:relative;z-index:1;}
+.pp-v6-kicker {font-size:.75rem;letter-spacing:.17em;color:#155aa2;font-weight:750;margin:0 0 1rem;}
+.pp-v6-research h2 {font-size:clamp(1.7rem,2.55vw,2.65rem);font-weight:750;letter-spacing:-.03em;line-height:1.18;color:#071d45;margin:0 0 1.1rem;}
+.pp-v6 .pp-summary {max-width:670px;font-size:1rem;line-height:1.65;}
+.pp-v6-research-image {min-height:420px;background-image:linear-gradient(to right,#fff 0%,rgba(255,255,255,.55) 11%,rgba(255,255,255,0) 31%),url('/images/research-background.jpg');background-size:cover;background-position:center center;}
+.pp-v6 .pp-actions {margin:1.25rem 0 .85rem;}
+@media(max-width:1050px){.pp-v6-intro{grid-template-columns:1fr 1fr;gap:1rem}.pp-v6-profile{gap:.8rem}.pp-v6-photo{width:170px;height:210px}.pp-v6 .pp-lab-logos{gap:.5rem}.pp-v6 .pp-lab-logos img{max-height:48px}.pp-v6 .pp-lab-logos img:last-child{max-height:40px}}
+@media(max-width:767px){.pp-v6-intro{grid-template-columns:1fr;gap:1.7rem}.pp-v6-profile{justify-content:flex-start;gap:1.3rem}.pp-v6-photo{width:160px;height:200px}.pp-v6-research{grid-template-columns:1fr;min-height:0}.pp-v6-research-copy{padding:1rem 0}.pp-v6-research-image{min-height:270px;background-position:60% center}.pp-v6-research h2{font-size:clamp(1.55rem,6vw,2.2rem)}.pp-v6 .pp-employer-logos{gap:.8rem}}
+@media(max-width:420px){.pp-v6-profile{gap:.65rem}.pp-v6-photo{width:135px;height:175px}.pp-v6 .pp-lab-logos{flex-wrap:wrap;gap:.65rem}.pp-v6 .pp-lab-logos img{max-width:85%;max-height:46px}.pp-v6 .pp-lab-logos img:last-child{max-width:65%;max-height:40px}}
+
+/* Version 7: institution logo parity */
+.pp-v6 .pp-employer-logos{max-width:650px;gap:1.4rem;align-items:center}
+.pp-v6 .pp-employer-logos .pp-cs-logo{height:83px;max-height:83px;max-width:34%}
+.pp-v6 .pp-employer-logos .pp-saclay-logo{height:75px;max-height:75px;max-width:37%}
+.pp-v6 .pp-employer-logos .pp-cnrs-logo{height:78px;max-height:78px;max-width:19%}
+.pp-v6 .pp-lab-logos{max-width:410px;gap:1.15rem}
+.pp-v6 .pp-lab-logos img{max-height:85px;max-width:52%}
+.pp-v6 .pp-lab-logos img:last-child{max-height:82px;max-width:46%}
+.pp-research-card .pp-direction-icon{width:100%;height:105px;object-fit:contain;object-position:center;margin:0 auto .55rem;display:block}
+.pp-selected-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.15rem;margin:1.5rem 0 2rem}
+.pp-selected-card{border:1px solid #e2edf9;border-radius:12px;overflow:hidden;background:#fff;box-shadow:0 5px 19px rgba(10,58,112,.05);display:flex;flex-direction:column}
+.pp-selected-card img{width:100%;height:132px;object-fit:contain;background:#f7fbff;padding:9px}
+.pp-selected-card-body{padding:1rem 1.1rem;flex:1;display:flex;flex-direction:column}
+.pp-selected-card h3{font-size:1.04rem;line-height:1.28;color:#09234f;margin:0 0 .6rem}
+.pp-selected-card .pp-pub-meta{margin-top:auto;padding-top:.6rem;font-size:.82rem}
+.pp-selected-card a{color:#1266bf}
+.pp-selected-card .pp-card-links{display:flex;gap:.8rem;flex-wrap:wrap;font-size:.83rem;margin-top:.65rem}
+.pp-bib-links{display:inline-flex;gap:.7rem;flex-wrap:wrap;margin-left:.6rem;font-size:.81rem}
+.pp-bib-links a,.pp-bib-links button{color:#0866c1;border:0;background:none;padding:0;cursor:pointer;text-decoration:none;font-size:inherit}
+.pp-bib-links button:hover,.pp-bib-links a:hover{text-decoration:underline}
+.pp-bib-links .pp-copy-status{font-size:.75rem;color:#287b55}
+@media(max-width:980px){.pp-selected-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.pp-selected-grid{grid-template-columns:1fr}.pp-v6 .pp-employer-logos .pp-cs-logo{height:62px}.pp-v6 .pp-employer-logos .pp-saclay-logo{height:56px}.pp-v6 .pp-employer-logos .pp-cnrs-logo{height:59px}.pp-v6 .pp-lab-logos img{max-height:57px}.pp-v6 .pp-lab-logos img:last-child{max-height:56px}}
+
+/* Version 7.1: full standalone vector research illustrations; no cropping */
+.pp-research-card .pp-direction-icon {display:block;width:100%;height:132px;max-height:none;object-fit:contain;object-position:center;margin:0 auto 1rem;overflow:visible;background:transparent;}
+
+/* Version 7.2 — approved blue scientific illustrations, no cropping */
+.pp-research-card .pp-direction-icon { display:block; width:100%; height:145px; max-height:none; object-fit:contain; object-position:center; margin:0 auto 1rem; background:transparent; overflow:visible; }
+@media(max-width:650px){.pp-research-card .pp-direction-icon{height:125px}}
+
+/* V7.4: wide applications card, following the approved three-above/one-below layout */
+.pp-applications-card{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;gap:1.5rem;padding:1.4rem 1.7rem;border:1px solid #e2edf9;border-radius:10px;background:#f8fafc;margin:0 0 1.5rem;text-align:left}
+.pp-applications-card img{display:block;width:88%;height:auto;max-height:180px;object-fit:contain;object-position:center;margin:0 auto}
+.pp-applications-card h3{font-size:1.35rem;color:#173b63;font-weight:700;margin:0 0 .7rem}
+.pp-applications-card p{font-size:.93rem;line-height:1.6;color:#566473;margin:0 0 .65rem}
+.pp-applications-card .pp-card-question{font-weight:600;color:#263b4e}
+@media(max-width:700px){.pp-applications-card{grid-template-columns:1fr;gap:.4rem;padding:1.2rem}.pp-applications-card img{height:auto;max-height:135px;width:88%}}
+
+/* Version 7.8: Contact location cards */
+.pp-contact-locations { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1.4rem; margin-top:1.5rem; }
+.pp-location-card { min-width:0; border:1px solid #dbe7f2; border-radius:12px; padding:1.1rem; background:#f8fbfe; }
+.pp-location-card h3 { margin:0 0 .5rem; color:#173c66; }
+.pp-location-card p { margin:.5rem 0; }
+.pp-location-card iframe { display:block; width:100%; height:245px; border:0; border-radius:8px; margin-top:.8rem; }
+@media(max-width:760px) { .pp-contact-locations { grid-template-columns:1fr; } }
+
+/* Version 7.9 — openings and people */
+.pp-openings-panel{display:grid;grid-template-columns:minmax(0,1.8fr) minmax(190px,.65fr);gap:2.2rem;align-items:center;background:#f7faff;border:1px solid #dce8f4;border-radius:12px;padding:2rem 2.3rem;color:#2b4058}
+.pp-openings-panel h3{font-size:1.45rem;font-weight:750;color:#173b63;margin:.1rem 0 1rem}
+.pp-openings-panel p{line-height:1.72;font-size:.98rem}
+.pp-people-eyebrow{font-size:.72rem!important;font-weight:750;letter-spacing:.13em;color:#2872b9;margin-bottom:.3rem}
+.pp-openings-actions{display:flex;gap:1.2rem;align-items:center;flex-wrap:wrap;margin-top:1.3rem}
+.pp-openings-tags{display:flex;flex-direction:column;gap:.65rem}
+.pp-openings-tags span{background:white;border:1px solid #d9e7f4;border-radius:7px;padding:.65rem .85rem;color:#285c91;font-weight:650;font-size:.9rem}
+.pp-people-intro{max-width:850px;color:#566879;font-size:1rem;line-height:1.7}
+.pp-people-subheading{font-size:1.35rem;color:#173b63;margin:1.6rem 0 1.2rem}
+.pp-people-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
+.pp-person-card{display:flex;align-items:flex-start;gap:.85rem;border:1px solid #e0eaf3;background:#f9fbfd;border-radius:10px;padding:1.1rem;min-width:0}
+.pp-person-avatar{width:44px;height:44px;flex:0 0 44px;border-radius:50%;background:#e7f1fd;color:#174b81;display:grid;place-items:center;font-weight:800;font-size:.9rem}
+.pp-person-card h4{font-size:1.03rem;font-weight:750;color:#173b63;margin:0 0 .45rem}
+.pp-person-card p{margin:0 0 .45rem;font-size:.83rem;line-height:1.48}
+.pp-person-topic{color:#2c4157;font-weight:600}
+.pp-person-affiliation,.pp-person-cosupervision{color:#63748a}
+.pp-alumni{margin-top:1.6rem;border:1px solid #dce8f4;border-radius:10px;padding:1.1rem 1.35rem}
+.pp-alumni summary{cursor:pointer;color:#173b63;font-weight:750;font-size:1.05rem}
+.pp-alumni summary span{font-weight:400;color:#718195}
+.pp-alumni-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem;margin-top:1.2rem}
+.pp-alumni-person{display:flex;flex-direction:column;gap:.12rem;background:#f8fafc;padding:.7rem .85rem;border-radius:6px;font-size:.84rem}
+.pp-alumni-person strong{color:#173b63}.pp-alumni-person span,.pp-alumni-person small{color:#607286}
+.pp-people-source{font-size:.82rem;color:#738091;margin-top:1rem}
+@media(max-width:990px){.pp-people-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.pp-alumni-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.pp-openings-panel{grid-template-columns:1fr;padding:1.3rem}.pp-openings-tags{flex-direction:row;flex-wrap:wrap}.pp-people-grid,.pp-alumni-grid{grid-template-columns:1fr}}
+
+.pp-alumni-topic {display:block; margin-top:0.25rem; font-size:0.82rem; line-height:1.4; color:#52667e;}
+
+/* Country flags identify countries of doctoral degree-awarding universities (CV verified). */
+.pp-flags{white-space:nowrap;font-size:1.03em;letter-spacing:.12em;margin-right:.25em}
+.pp-alumni-university{display:block;font-size:.78rem;color:#536c86;margin-top:.32rem;line-height:1.4}
+
+/* Version 7.16: subtle scale adjustments */
+.pp-v6 .pp-employer-logos .pp-cs-logo {height:70px;max-height:70px;}
+.pp-research-card .pp-direction-icon {height:120px;max-height:120px;object-fit:contain;}
+@media(max-width:650px){.pp-v6 .pp-employer-logos .pp-cs-logo{height:54px;max-height:54px}.pp-research-card .pp-direction-icon{height:108px;max-height:108px}}
+
+/* V7.17: industrial collaborators and research support */
+.pp-collab-lead{font-size:.95rem;color:#586b7e;line-height:1.6;margin:0 0 1.2rem}
+.pp-collab-strip{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:1rem;align-items:stretch}
+.pp-collab-item{min-width:0;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:.35rem;background:#fff;border:1px solid #e1eaf2;border-radius:10px;padding:.85rem .55rem;text-decoration:none!important;transition:border-color .2s,box-shadow .2s}
+.pp-collab-item:hover{border-color:#91b9e0;box-shadow:0 3px 12px rgba(22,66,105,.07)}
+.pp-collab-item img{width:100%;max-width:210px;height:65px;object-fit:contain}
+.pp-collab-item span{font-size:.7rem;color:#738498;text-align:center}
+@media(max-width:850px){.pp-collab-strip{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:520px){.pp-collab-strip{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* V7.18: seven collaborators/supporters and alumni institutional identity */
+.pp-collab-strip{grid-template-columns:repeat(4,minmax(0,1fr))}
+.pp-alumni-current{display:inline-flex;align-items:center;gap:.45rem;font-size:.81rem;font-weight:650;color:#1e557c!important;margin:.28rem 0 .18rem;min-height:24px}
+.pp-alumni-org-mark{display:inline-flex;width:27px;height:27px;align-items:center;justify-content:center;border-radius:5px;background:#fff;border:1px solid #e1eaf3;flex-shrink:0}
+.pp-alumni-org-icon{width:20px;height:20px;object-fit:contain}
+@media(max-width:990px){.pp-collab-strip{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:650px){.pp-collab-strip{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* v7.20: compact, responsive conceptual framework for Research Vision */
+.pp-vision-framework{margin:1.65rem 0 .5rem;padding:1.25rem 1.4rem;border:1px solid #dce7f1;border-radius:12px;background:linear-gradient(120deg,#f7fafd,#fff);text-align:center}
+.pp-vision-framework-label{font-weight:700;color:#173b63;margin:0 0 .95rem;font-size:1rem}
+.pp-vision-flow{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:.55rem}
+.pp-vision-flow span{padding:.58rem .82rem;border:1px solid #cdddeb;background:#fff;border-radius:8px;color:#194a78;font-size:.87rem;font-weight:650;line-height:1.3}
+.pp-vision-flow b{color:#6187a9;font-weight:600;font-size:1.1rem}
+.pp-vision-framework-note{margin:.85rem 0 0;color:#536879;font-size:.88rem}
+.pp-research-card .pp-direction-topics{margin-top:1rem;padding-top:.9rem;border-top:1px solid #e3eaf1;color:#476c89;font-size:.83rem;line-height:1.65}
+@media(max-width:650px){.pp-vision-framework{padding:1.1rem .8rem}.pp-vision-flow{gap:.35rem}.pp-vision-flow span{font-size:.76rem;padding:.5rem .55rem}.pp-vision-flow b{font-size:.9rem}}
+
+/* v7.21: recognizable partner identity, maintaining native proportions */
+.pp-collab-item .pp-collab-logo{width:100%;max-width:190px;height:74px;object-fit:contain;object-position:center;display:block}
+.pp-collab-item{gap:.55rem;padding:1.1rem .85rem}
+@media(max-width:650px){.pp-collab-item .pp-collab-logo{height:60px;max-width:155px}}
+
+/* V7.23: larger circular portraits for current PhD students.
+   When a local photo is absent, the existing initials remain visible. */
+.pp-person-card{align-items:flex-start;gap:1rem;padding:1.15rem}
+.pp-person-avatar{position:relative;width:88px;height:88px;flex:0 0 88px;border-radius:50%;overflow:hidden;background:#e7f1fd;border:2px solid #d5e6f8;box-shadow:0 2px 10px rgba(19,64,110,.08);font-size:1.1rem}
+.pp-person-avatar img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;z-index:1}
+.pp-person-avatar span{position:relative;z-index:0}
+@media(max-width:650px){.pp-person-avatar{width:76px;height:76px;flex-basis:76px}}
+
+/* Alumni portrait cards — local photographs and initials fallback */
+.pp-alumni-person.pp-alumni-with-photo{display:flex;flex-direction:row;align-items:flex-start;gap:.85rem;min-width:0}
+.pp-alumni-avatar{width:72px;height:72px;flex:0 0 72px;border:2px solid #d5e6f8;border-radius:50%;overflow:hidden;background:#e7f1fd;position:relative;display:grid;place-items:center;color:#174b81;font-size:1.05rem;font-weight:750}
+.pp-alumni-avatar img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1}
+.pp-alumni-avatar span{position:relative;z-index:0}
+.pp-alumni-body{display:flex;flex-direction:column;gap:.12rem;min-width:0;flex:1}
+@media(max-width:650px){.pp-alumni-avatar{width:66px;height:66px;flex-basis:66px}}
+
+/* V7.25: verified source portraits with graceful initials fallback */
+.pp-person-profile{color:inherit;text-decoration:none;border-bottom:1px solid transparent}.pp-person-profile:hover{color:#1767a7;border-bottom-color:#1767a7}.pp-syntelier-mark{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:5px;background:#132b47;color:#fff;font-weight:800;font-family:Arial,sans-serif;font-size:15px}.pp-syntelier-wordmark{font-weight:750;letter-spacing:-.02em}.pp-person-avatar img{object-fit:cover}
+
+/* V7.27: stable circular portraits and clear initials fallback */
+.pp-alumni-avatar img,.pp-person-avatar img{display:block;object-fit:cover;object-position:center 40%;border-radius:50%}
+.pp-alumni-avatar.pp-avatar-placeholder{background:#e7f1fd;color:#174b81}
+
+/* V7.30: locally hosted industrial partner wordmarks, avoiding blocked external logo services. */
+.pp-collab-item .pp-collab-logo{width:100%;max-width:210px;height:74px;object-fit:contain}
+
+/* Talks — selected invited lectures and keynotes */
+.pp-talks-intro{max-width:850px;margin:0 0 1.35rem;color:#455a74;line-height:1.65}.pp-talks-intro p:last-child{margin-bottom:0}.pp-talks-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.pp-talk-card{display:flex;gap:17px;padding:20px 21px;border:1px solid #dce7f3;border-radius:13px;background:#fff;box-shadow:0 4px 18px rgba(20,51,93,.035)}.pp-talk-year{font-weight:750;font-size:.84rem;color:#1c6098;background:#eaf3fb;border-radius:8px;padding:7px 9px;height:max-content;line-height:1.2}.pp-talk-detail{min-width:0}.pp-talk-detail h3{font-size:1rem!important;line-height:1.38!important;margin:0 0 8px!important;color:#0c2b52!important}.pp-talk-venue{font-size:.88rem;margin:0 0 5px;color:#284e78;font-weight:600}.pp-talk-place{font-size:.81rem;margin:0;color:#718199}.pp-talks-more{margin-top:18px}.pp-talks-more>summary{cursor:pointer;color:#16598c;font-weight:650;padding:12px 0;list-style-position:inside}.pp-talks-earlier{margin-top:10px}.pp-talks-note{margin-top:19px;font-size:.85rem;color:#65778e}@media(max-width:780px){.pp-talks-grid{grid-template-columns:1fr}.pp-talk-card{padding:17px}}
+
+/* Prominent full-publications call to action */
+.pp-publications-more {margin:2.1rem 0 1.3rem;text-align:center;}
+.pp-publications-more a {display:inline-flex;align-items:center;justify-content:center;gap:.55rem;padding:.92rem 1.6rem;background:#173b63;color:#fff!important;border:2px solid #173b63;border-radius:9px;font-weight:750;font-size:1.07rem;letter-spacing:.01em;text-decoration:none!important;box-shadow:0 5px 15px rgba(23,59,99,.16);transition:background .18s ease,transform .18s ease,box-shadow .18s ease;}
+.pp-publications-more a:hover,.pp-publications-more a:focus-visible {background:#0b2949;color:#fff!important;transform:translateY(-2px);box-shadow:0 8px 20px rgba(23,59,99,.23);}
+.pp-publications-more a:focus-visible {outline:3px solid #7bb6ef;outline-offset:3px;}
+@media(max-width:540px){.pp-publications-more a{width:100%;max-width:340px;padding:.85rem 1rem;}}
+
+/* v7.34: original supplied Amazon Research Awards logo, dark background retained. */
+.pp-collab-item .pp-collab-logo-amazon{max-width:210px;height:84px;object-fit:contain;border-radius:4px}
+
+/* France 2030 PEPR programme logos */
+.pp-collab-item .pp-collab-logo-pepr{max-width:220px;height:86px;object-fit:contain;}
+
+/* Université Paris-Saclay partner logo */
+.pp-collab-logo-ups { object-fit: contain; max-width: 210px; }
+
+/* Research leadership: three balanced, responsive cards */
+.pp-leadership-intro{max-width:980px;margin:0 auto 1.8rem;line-height:1.75;color:#33445b}
+.pp-leadership-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.15rem;align-items:stretch}
+.pp-leadership-card{background:#fff;border:1px solid #dce5ef;border-radius:14px;padding:1.55rem 1.45rem;box-shadow:0 5px 22px rgba(14,40,76,.055);min-width:0}
+.pp-leadership-label{color:#225c99;text-transform:uppercase;letter-spacing:.075em;font-size:.74rem;font-weight:800;margin-bottom:.7rem}
+.pp-leadership-card h3{font-size:1.22rem;line-height:1.32;color:#102f52;margin:0 0 1.2rem;font-weight:750}
+.pp-leadership-entry{padding:1rem 0;border-top:1px solid #e5ecf4}
+.pp-leadership-entry strong{display:block;font-size:.96rem;color:#173e6c;line-height:1.4}
+.pp-leadership-entry strong a{color:#185a9d;text-decoration:none}
+.pp-leadership-entry strong a:hover{text-decoration:underline}
+.pp-leadership-date{display:block;font-size:.78rem;color:#56708d;font-weight:700;margin-top:.28rem}
+.pp-leadership-entry p,.pp-leadership-note{font-size:.9rem;line-height:1.65;color:#40536b;margin:.6rem 0 0}
+.pp-leadership-note{border-top:1px solid #e5ecf4;padding-top:1rem;margin-top:.25rem}
+@media(max-width:1000px){.pp-leadership-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:680px){.pp-leadership-grid{grid-template-columns:1fr}.pp-leadership-card{padding:1.35rem}}
+
+/* Research collaborators — People */
+.pp-collaborators{margin-top:2.3rem;padding-top:1.5rem;border-top:1px solid #e4eaf2}
+.pp-collaborators-intro{color:#5d6b7e;margin:.25rem 0 1.2rem;max-width:760px}
+.pp-collaborators-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.8rem}
+.pp-collaborator-card{display:flex;align-items:center;min-height:66px;padding:1rem 1.1rem;border:1px solid #dfe7f2;border-radius:10px;background:#fff;box-shadow:0 2px 8px rgba(12,40,77,.035);font-weight:600;color:#193b66;line-height:1.35}
+@media(max-width:1000px){.pp-collaborators-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:680px){.pp-collaborators-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:430px){.pp-collaborators-grid{grid-template-columns:1fr}}
+
+/* Version 7.47: collaborators match the expandable alumni presentation. */
+.pp-collaborators-expandable{margin-top:1rem}
+.pp-collaborators-alumni-grid{margin-top:1.2rem}
+.pp-collaborator-person{min-height:55px;justify-content:center;padding:.85rem 1rem}
+.pp-collaborator-person strong{font-size:.95rem}
+
+/* V7.48: collaborators' current working countries. */
+.pp-collaborator-person{gap:.32rem}
+.pp-collaborator-person .pp-collaborator-location{font-size:.82rem;color:#64748b;line-height:1.35}
+.pp-collaborator-flag{font-size:1.05rem;vertical-align:-.06em;margin-right:.18rem}
+
+/* V7.51: Scientific positioning and contributions */
+.pp-research-signature{font-size:.94rem;font-weight:650;color:#17456e;letter-spacing:.005em;line-height:1.5;margin:0 0 1.1rem}
+.pp-key-contributions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.15rem;margin:1.3rem 0 1.8rem}
+.pp-key-contribution{padding:1.35rem 1.45rem;background:#fff;border:1px solid #dfe8ef;border-top:3px solid #1c5b86;border-radius:10px;box-shadow:0 4px 17px rgba(18,47,75,.035)}
+.pp-key-number{display:block;font-size:.7rem;letter-spacing:.11em;font-weight:750;color:#27678c;margin-bottom:.65rem}
+.pp-key-contribution h3{font-size:1.13rem;line-height:1.35;margin:.1rem 0 .6rem;color:#183a57}
+.pp-key-contribution p{font-size:.92rem;line-height:1.68;margin:.4rem 0 .8rem}
+.pp-key-contribution .pp-key-evidence{font-size:.82rem;margin-top:1rem;color:#3b6685}
+.pp-key-evidence a{font-weight:650;text-decoration:underline;text-decoration-color:#b9d0e2;text-underline-offset:3px}
+.pp-trajectory{border:1px solid #dbe6ee;background:#f5f9fc;border-radius:10px;padding:1.45rem;margin:1.5rem 0}
+.pp-trajectory h3{font-size:1.15rem;color:#183a57;margin:0 0 1.1rem}
+.pp-trajectory-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.75rem}
+.pp-trajectory-steps>div{border-left:3px solid #2b6a94;padding:.25rem .65rem .35rem .9rem}
+.pp-trajectory-steps strong,.pp-trajectory-steps span{display:block}
+.pp-trajectory-steps strong{font-size:.91rem;color:#173f60;margin-bottom:.35rem}
+.pp-trajectory-steps span{font-size:.82rem;line-height:1.5;color:#425c70}
+.pp-trajectory>p{font-size:.8rem;color:#647584;margin:.9rem 0 0}
+.pp-impact-strip{display:flex;flex-wrap:wrap;justify-content:space-around;gap:.75rem;border-top:1px solid #e1e9ef;border-bottom:1px solid #e1e9ef;padding:1rem .4rem}
+.pp-impact-strip span{font-size:.84rem;color:#466071;white-space:nowrap}
+.pp-impact-strip strong{font-size:1.22rem;color:#17466b;margin-right:.2rem}
+.pp-impact-source{font-size:.77rem;color:#667c8b;margin:.55rem 0 1.5rem}
+.pp-selected-description{font-size:.83rem;line-height:1.55;color:#50667a;margin:.5rem 0 .8rem}
+@media(max-width:760px){.pp-key-contributions{grid-template-columns:1fr}.pp-trajectory-steps{grid-template-columns:1fr}.pp-impact-strip{justify-content:flex-start;gap:1rem 1.3rem}}
+
+/* Selected contributions: consistent title / venue / description / links hierarchy */
+.pp-selected-card-body{display:flex;flex-direction:column;min-height:0}
+.pp-selected-card .pp-pub-meta{display:block;margin-top:0;padding-top:0;font-size:.82rem;font-weight:600;color:#587086}
+.pp-selected-card .pp-selected-description{margin:.7rem 0 1rem;font-size:.85rem;line-height:1.55;color:#50667a;flex:1}
+.pp-selected-card .pp-card-links{margin-top:auto;padding-top:.65rem;border-top:1px solid #e5edf4}
+
+/* Academic profiles in the contact section */
+.pp-contact-profiles { display: flex; flex-wrap: wrap; align-items: center; gap: .45rem .65rem; margin: .65rem 0 1.4rem; line-height: 1.7; }
+.pp-contact-profiles a { white-space: nowrap; }
+.pp-contact-profiles span { color: #8191a3; }
