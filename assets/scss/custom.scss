@@ -387,3 +387,45 @@ body.dark h3,
 body.dark h4 {
   color: #173b63;
 }
+
+
+/* --------------------------------------------------
+   Consistent hyperlink colours
+   Pablo Piantanida academic website
+   -------------------------------------------------- */
+
+/* Standard hyperlinks */
+body a:not(.btn):not(.pp-button) {
+  color: #173b63;
+}
+
+/* Hover and keyboard focus */
+body a:not(.btn):not(.pp-button):hover,
+body a:not(.btn):not(.pp-button):focus {
+  color: #0b2545;
+}
+
+/* Academic profile links */
+.pp-social a,
+.pp-textlink,
+.pp-bib-links a,
+.pp-selected-card a {
+  color: #173b63 !important;
+}
+
+.pp-social a:hover,
+.pp-textlink:hover,
+.pp-bib-links a:hover,
+.pp-selected-card a:hover {
+  color: #0b2545 !important;
+}
+
+/* Navigation */
+#navbar-main .nav-link {
+  color: #173b63 !important;
+}
+
+#navbar-main .nav-link:hover {
+  color: #0b2545 !important;
+}
+
