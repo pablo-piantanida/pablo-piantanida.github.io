@@ -350,3 +350,40 @@ section.home-section {padding-top:55px;padding-bottom:55px;}
 .pp-contact-profiles { display: flex; flex-wrap: wrap; align-items: center; gap: .45rem .65rem; margin: .65rem 0 1.4rem; line-height: 1.7; }
 .pp-contact-profiles a { white-space: nowrap; }
 .pp-contact-profiles span { color: #8191a3; }
+
+/* Force light appearance — Pablo Piantanida */
+html,
+body,
+body.dark {
+  background-color: #ffffff !important;
+  color: #202a34 !important;
+  color-scheme: light;
+}
+
+body.dark .home-section,
+body.dark .page-body,
+.home-section,
+.page-body {
+  background-color: #ffffff !important;
+  color: #202a34 !important;
+}
+
+.navbar,
+.navbar-dark,
+.navbar-light,
+#navbar-main {
+  background-color: #ffffff !important;
+}
+
+#navbar-main .navbar-brand,
+#navbar-main .nav-link,
+#navbar-main .navbar-nav .nav-link {
+  color: #173b63 !important;
+}
+
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4 {
+  color: #173b63;
+}

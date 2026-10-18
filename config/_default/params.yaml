@@ -1,3 +1,6 @@
 appearance:
   theme: minimal
+  mode: light
   day_night: false
+
+day_night: false
