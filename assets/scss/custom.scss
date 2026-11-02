@@ -495,3 +495,12 @@ body a:not(.btn):not(.pp-button):focus {
 /* Combined institutional identity supplied by CentraleSupélec / Paris-Saclay. */
 .pp-v6 .pp-employer-logos .pp-cs-saclay-logo {width:350px;height:auto;max-width:calc(100% - 90px);max-height:none;flex:0 1 auto;}
 @media(max-width:650px){.pp-v6 .pp-employer-logos .pp-cs-saclay-logo{width:290px;max-width:calc(100% - 75px);}}
+
+/* Expandable biography beneath the homepage introduction. */
+.pp-biography {max-width:960px;margin:1rem 0 2.5rem;scroll-margin-top:100px;}
+.pp-biography h2 {font-size:1.65rem;color:#173b63;margin:0 0 1rem;}
+.pp-biography p {font-size:.98rem;line-height:1.75;color:#43576b;}
+.pp-biography summary {display:list-item;width:fit-content;max-width:100%;cursor:pointer;color:#1266bf;font-weight:650;padding:.35rem 0;}
+.pp-biography summary:focus-visible {outline:2px solid #1266bf;outline-offset:4px;}
+.pp-biography-full {padding-top:.8rem;}
+@media print {.pp-biography details:not([open]) > .pp-biography-full {display:block;}}

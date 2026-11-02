@@ -21,6 +21,18 @@ sections:
               <div class="pp-v6-profile-affiliations"><div class="pp-lab-logos" aria-label="Research laboratories"><img src="/images/logo-ills.png" alt="ILLS – International Laboratory on Learning Systems"><img src="/images/logo-mila.png" alt="Mila"></div><p class="pp-caption">Paris-Saclay · Montréal</p></div>
             </div>
           </div>
+          <section class="pp-biography" id="biography" aria-labelledby="biography-title">
+            <h2 id="biography-title">About</h2>
+            <p>I am a Full Professor at CentraleSupélec, Université Paris-Saclay, where I develop the mathematical and information-theoretic foundations of reliable, adaptive, and collaborative intelligence. My research asks what information matters for a task, how it should be represented and exchanged, and how intelligent systems should reason and act under uncertainty and resource constraints.</p>
+            <details>
+              <summary>Read full biography</summary>
+              <div class="pp-biography-full">
+                <p>My work connects information theory, statistical decision theory, statistics, and modern machine learning. It has evolved from the fundamental limits of communication and distributed inference toward information for learning, reasoning, and reliable decision-making. My contributions span task-relevant representations, information estimation and privacy, uncertainty and failure prediction, generative AI evaluation, and pragmatic multi-agent communication. This work has led to 253 publications, comprising 60 journal articles and 193 international conference papers. Across these areas, a central question guides my research: when does additional information, computation, or interaction improve a decision?</p>
+                <p>Since 2022, I have directed the CNRS International Research Laboratory on Learning Systems (ILLS) in Montréal. In this role, I shape its scientific strategy, develop institutional partnerships, and coordinate France–Canada research initiatives connecting foundational AI with language, healthcare, scientific discovery, and engineering.</p>
+                <p>My research programme for 2027–2031 brings together three directions: learning, representation, and reasoning; uncertainty, evaluation, and reliability; and collaborative and agentic intelligence. It seeks fundamental limits, decision-theoretic principles, and algorithms that account for limited resources to guide what AI systems should learn, retrieve, compute, communicate, and do—and when they should seek further evidence or defer a decision.</p>
+              </div>
+            </details>
+          </section>
           <div class="pp-v6-research">
             <div class="pp-v6-research-copy">
               <p class="pp-v6-kicker">MY RESEARCH</p>
@@ -412,7 +424,7 @@ sections:
       text: |-
         **Montréal, Canada · Paris-Saclay, France**
 
-        <div class="pp-contact-profiles"><a href="mailto:pablo.piantanida@mila.quebec">Email</a> <span aria-hidden="true">·</span> <a href="https://scholar.google.com/citations?user=QyBEFv0AAAAJ&amp;hl=fr" target="_blank" rel="noopener">Google Scholar</a> <span aria-hidden="true">·</span> <a href="https://orcid.org/0000-0002-8717-2117" target="_blank" rel="noopener">ORCID</a> <span aria-hidden="true">·</span> <a href="https://dblp.org/pid/44/1416.html" target="_blank" rel="noopener">DBLP</a> <span aria-hidden="true">·</span> <a href="https://www.linkedin.com/in/pablo-piantanida-60a51bb5/" target="_blank" rel="noopener">LinkedIn</a> <span aria-hidden="true">·</span> <a href="/uploads/Pablo_Piantanida_CV.pdf" target="_blank" rel="noopener" type="application/pdf">Academic CV ↗</a></div>
+        <div class="pp-contact-profiles"><a href="mailto:pablo.piantanida@mila.quebec">Email</a> <span aria-hidden="true">·</span> <a href="https://scholar.google.com/citations?user=QyBEFv0AAAAJ&amp;hl=fr" target="_blank" rel="noopener">Google Scholar</a> <span aria-hidden="true">·</span> <a href="https://orcid.org/0000-0002-8717-2117" target="_blank" rel="noopener">ORCID</a> <span aria-hidden="true">·</span> <a href="https://dblp.org/pid/44/1416.html" target="_blank" rel="noopener">DBLP</a> <span aria-hidden="true">·</span> <a href="https://www.linkedin.com/in/pablo-piantanida-60a51bb5/" target="_blank" rel="noopener">LinkedIn</a> <span aria-hidden="true">·</span> <a href="/uploads/Pablo_Piantanida_CV.pdf" target="_blank" rel="noopener" type="application/pdf">Academic CV ↗</a> <span aria-hidden="true">·</span> <a href="#biography">Biography</a></div>
 
         **ILLS Executive Assistant — Katia Goyette-Desjardins (she/her)**  
         Secrétaire de direction ILLS  
