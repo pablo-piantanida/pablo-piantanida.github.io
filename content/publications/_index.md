@@ -53,12 +53,15 @@ type: page
 </ol>
 <h2>Journal articles <span class="pp-bib-count">(60)</span></h2>
 <ol class="pp-bib-list">
-<li><span class="pp-bib-id">[J1]</span> E. Aubinais, E. Gassiat, and P. Piantanida, “Fundamental Limits of Membership Inference Attacks on Machine Learning Models,” <em class="pp-bib-venue">Journal of Machine Learning Research</em>, vol. 26, no. 263, pp. 1–54, 2025.<span class="pp-bib-links"><a href="https://www.jmlr.org/papers/v26/24-1515.html" rel="noopener noreferrer" target="_blank">Paper ↗</a><a href="https://arxiv.org/abs/2310.13786" rel="noopener noreferrer" target="_blank">arXiv ↗</a><button class="pp-copy-bib" data-bib="@misc{piantanida2025j1,
-  title = {Fundamental Limits of Membership Inference Attacks on Machine Learning Models,},
-  author = {E. Aubinais, E. Gassiat, and P. Piantanida},
-  year = {2025},
-  note = {[J1] E. Aubinais, E. Gassiat, and P. Piantanida, “Fundamental Limits of Membership Inference Attacks on Machine Learning Models,” Journal of Machine Learning Research, vol. 26, no. 263, pp. 1–54, 2025.},
-  url = {https://www.jmlr.org/papers/v26/24-1515.html}
+<li><span class="pp-bib-id">[J1]</span> E. Aubinais, E. Gassiat, and P. Piantanida, “Fundamental Limits of Membership Inference Attacks on Machine Learning Models,” <em class="pp-bib-venue">Journal of Machine Learning Research</em>, vol. 26, no. 263, pp. 1–54, 2025.<span class="pp-bib-links"><a href="/papers/membership-inference-limits/">Overview</a><a href="https://www.jmlr.org/papers/v26/24-1515.html" rel="noopener noreferrer" target="_blank">Paper ↗</a><a href="https://arxiv.org/abs/2310.13786" rel="noopener noreferrer" target="_blank">arXiv ↗</a><button class="pp-copy-bib" data-bib="@article{piantanida2025j1,
+  author  = {Eric Aubinais and Elisabeth Gassiat and Pablo Piantanida},
+  title   = {Fundamental Limits of Membership Inference Attacks on Machine Learning Models},
+  journal = {Journal of Machine Learning Research},
+  year    = {2025},
+  volume  = {26},
+  number  = {263},
+  pages   = {1--54},
+  url     = {https://www.jmlr.org/papers/v26/24-1515.html}
 }" type="button">Copy BibTeX</button></span></li>
 <li><span class="pp-bib-id">[J2]</span> Z. Dehghani Tafti, P. Piantanida, and M. Shateri, “A Universal Source-Free Class Unlearning Framework via Synthetic Embeddings,” <em class="pp-bib-venue">Transactions on Machine Learning Research</em>, May 2026.<span class="pp-bib-links"><a href="https://openreview.net/forum?id=Fb2sZ1eoVe" rel="noopener noreferrer" target="_blank">Paper ↗</a><button class="pp-copy-bib" data-bib="@misc{piantanida2026j2,
   title = {A Universal Source-Free Class Unlearning Framework via Synthetic Embeddings,},
@@ -627,12 +630,15 @@ type: page
   note = {[C22] A. Altieri, M. Romanelli, G. Pichler, F. Alberge, and P. Piantanida, “Beyond the Norms: Detecting Prediction Errors in Regression Models,” in Proceedings of the 41st International Conference on Machine Learning, ser. Proceedings of Machine Learning Research, vol. 235. PMLR, 21–27 Jul 2024, pp. 1186–1221, (spotlight).},
   url = {https://proceedings.mlr.press/v235/altieri24a.html}
 }" type="button">Copy BibTeX</button></span></li>
-<li><span class="pp-bib-id">[C23]</span> E. D. C. Gomes, M. Romanelli, G. Pichler, and P. Piantanida, “A Data-Driven Measure of Relative Uncertainty for Misclassification Detection,” in <em class="pp-bib-venue">The Twelfth International Conference on Learning Representations</em>, 2024.<span class="pp-bib-links"><a href="https://openreview.net/forum?id=ruGY8v10mK" rel="noopener noreferrer" target="_blank">Paper ↗</a><a href="https://arxiv.org/abs/2306.01710" rel="noopener noreferrer" target="_blank">arXiv ↗</a><button class="pp-copy-bib" data-bib="@misc{piantanida2024c23,
-  title = {A Data-Driven Measure of Relative Uncertainty for Misclassification Detection,},
-  author = {E. D. C. Gomes, M. Romanelli, G. Pichler, and P. Piantanida},
-  year = {2024},
-  note = {[C23] E. D. C. Gomes, M. Romanelli, G. Pichler, and P. Piantanida, “A Data-Driven Measure of Relative Uncertainty for Misclassification Detection,” in The Twelfth International Conference on Learning Representations, 2024.},
-  url = {https://openreview.net/forum?id=ruGY8v10mK}
+<li><span class="pp-bib-id">[C23]</span> E. D. C. Gomes, M. Romanelli, G. Pichler, and P. Piantanida, “A Data-Driven Measure of Relative Uncertainty for Misclassification Detection,” in <em class="pp-bib-venue">The Twelfth International Conference on Learning Representations</em>, 2024.<span class="pp-bib-links"><a href="/papers/relative-uncertainty/">Overview</a><a href="https://openreview.net/forum?id=ruGY8v10mK" rel="noopener noreferrer" target="_blank">Paper ↗</a><a href="https://arxiv.org/abs/2306.01710" rel="noopener noreferrer" target="_blank">arXiv ↗</a><button class="pp-copy-bib" data-bib="@inproceedings{piantanida2024c23,
+ author = {Dadalto C\^{a}mara Gomes, Eduardo and Romanelli, Marco and Pichler, Georg and Piantanida, Pablo},
+ booktitle = {International Conference on Learning Representations},
+ editor = {B. Kim and Y. Yue and S. Chaudhuri and K. Fragkiadaki and M. Khan and Y. Sun},
+ pages = {21826--21848},
+ title = {A Data-Driven Measure of Relative Uncertainty for Misclassification Detection},
+ url = {https://proceedings.iclr.cc/paper_files/paper/2024/file/5e0da5da69b71349ae0bd7ad716e4bc9-Paper-Conference.pdf},
+ volume = {2024},
+ year = {2024}
 }" type="button">Copy BibTeX</button></span></li>
 <li><span class="pp-bib-id">[C24]</span> M. Darrin, P. Formont, J. Cheung, and P. Piantanida, “COSMIC: Mutual Information for Task-Agnostic Summarization Evaluation,” in <em class="pp-bib-venue">Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). Association for Computational Linguistics</em>, August 2024, pp. 12 696–12 717, (oral).<span class="pp-bib-links"><a href="https://aclanthology.org/2024.acl-long.686/" rel="noopener noreferrer" target="_blank">Paper ↗</a><a href="https://arxiv.org/abs/2402.19457" rel="noopener noreferrer" target="_blank">arXiv ↗</a><button class="pp-copy-bib" data-bib="@misc{piantanida2024c24,
   title = {COSMIC: Mutual Information for Task-Agnostic Summarization Evaluation,},
@@ -807,12 +813,16 @@ type: page
   note = {[C48] P. Colombo, G. Staerman, C. Clavel, and P. Piantanida, “Automatic Text Evaluation through the Lens of Wasserstein Barycenters,” in Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing. Association for Computational Linguistics, November 2021, pp. 10 450–10 466.},
   url = {https://aclanthology.org/2021.emnlp-main.817/}
 }" type="button">Copy BibTeX</button></span></li>
-<li><span class="pp-bib-id">[C49]</span> F. Granese, M. Romanelli, D. Gorla, C. Palamidessi, and P. Piantanida, “DOCTOR: A Simple Method for Detecting Misclassification Errors,” in <em class="pp-bib-venue">Advances in Neural Information Processing Systems, Dec 6th - 14th</em>, 2021, Virtual 2021, (spotlight).<span class="pp-bib-links"><a href="https://proceedings.neurips.cc/paper/2021/hash/2cb6b10338a7fc4117a80da24b582060-Abstract.html" rel="noopener noreferrer" target="_blank">Paper ↗</a><a href="https://arxiv.org/abs/2106.02395" rel="noopener noreferrer" target="_blank">arXiv ↗</a><button class="pp-copy-bib" data-bib="@misc{piantanida2021c49,
-  title = {DOCTOR: A Simple Method for Detecting Misclassification Errors,},
-  author = {F. Granese, M. Romanelli, D. Gorla, C. Palamidessi, and P. Piantanida},
-  year = {2021},
-  note = {[C49] F. Granese, M. Romanelli, D. Gorla, C. Palamidessi, and P. Piantanida, “DOCTOR: A Simple Method for Detecting Misclassification Errors,” in Advances in Neural Information Processing Systems, Dec 6th - 14th, 2021, Virtual 2021, (spotlight).},
-  url = {https://proceedings.neurips.cc/paper/2021/hash/2cb6b10338a7fc4117a80da24b582060-Abstract.html}
+<li><span class="pp-bib-id">[C49]</span> F. Granese, M. Romanelli, D. Gorla, C. Palamidessi, and P. Piantanida, “DOCTOR: A Simple Method for Detecting Misclassification Errors,” in <em class="pp-bib-venue">Advances in Neural Information Processing Systems, Dec 6th - 14th</em>, 2021, Virtual 2021, (spotlight).<span class="pp-bib-links"><a href="/papers/doctor/">Overview</a><a href="https://proceedings.neurips.cc/paper/2021/hash/2cb6b10338a7fc4117a80da24b582060-Abstract.html" rel="noopener noreferrer" target="_blank">Paper ↗</a><a href="https://arxiv.org/abs/2106.02395" rel="noopener noreferrer" target="_blank">arXiv ↗</a><button class="pp-copy-bib" data-bib="@inproceedings{piantanida2021c49,
+ author = {Granese, Federica and Romanelli, Marco and Gorla, Daniele and Palamidessi, Catuscia and Piantanida, Pablo},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {M. Ranzato and A. Beygelzimer and Y. Dauphin and P.S. Liang and J. Wortman Vaughan},
+ pages = {5669--5681},
+ publisher = {Curran Associates, Inc.},
+ title = {DOCTOR: A Simple Method for Detecting Misclassification Errors},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2021/file/2cb6b10338a7fc4117a80da24b582060-Paper.pdf},
+ volume = {34},
+ year = {2021}
 }" type="button">Copy BibTeX</button></span></li>
 <li><span class="pp-bib-id">[C50]</span> O. Veilleux, M. Boudiaf, P. Piantanida, and I. Ben Ayed, “Realistic evaluation of transductive few-shot learning,” in <em class="pp-bib-venue">Advances in Neural Information Processing Systems, Dec 6th - 14th</em>, 2021, Virtual 2021.<span class="pp-bib-links"><a href="https://proceedings.neurips.cc/paper/2021/hash/4d7a968bb636e25818ff2a3941db08c1-Abstract.html" rel="noopener noreferrer" target="_blank">Paper ↗</a><a href="https://arxiv.org/abs/2204.11181" rel="noopener noreferrer" target="_blank">arXiv ↗</a><button class="pp-copy-bib" data-bib="@misc{piantanida2021c50,
   title = {Realistic evaluation of transductive few-shot learning,},

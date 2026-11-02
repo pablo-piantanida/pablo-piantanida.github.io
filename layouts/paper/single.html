@@ -1,0 +1,40 @@
+{{ define "main" }}
+{{ $paper := .Params.paper }}
+<article class="pp-paper-page">
+  <header class="pp-paper-header">
+    <a class="pp-paper-back" href="{{ "/publications/" | relURL }}">← All publications</a>
+    <p class="pp-paper-venue">{{ $paper.venue_short }}</p>
+    <h1>{{ .Title }}</h1>
+    <p class="pp-paper-authors">{{ delimit $paper.authors ", " }}</p>
+    <p class="pp-paper-summary">{{ $paper.summary }}</p>
+    <nav class="pp-paper-links" aria-label="Paper resources">
+      <a class="pp-button" href="{{ $paper.pdf }}">Read paper (PDF) ↗</a>
+      <a href="{{ $paper.url }}">Publication ↗</a>
+      <a href="https://arxiv.org/abs/{{ $paper.arxiv }}">arXiv ↗</a>
+      {{ with $paper.code }}<a href="{{ . }}">Code ↗</a>{{ end }}
+      <a href="{{ .RelPermalink }}cite.bib" download>Download BibTeX</a>
+    </nav>
+  </header>
+  <section class="pp-paper-abstract" aria-labelledby="paper-abstract">
+    <h2 id="paper-abstract">Abstract</h2>
+    <p>{{ $paper.abstract }}</p>
+  </section>
+  <div class="pp-paper-explainer">
+    <section><h2>The question</h2><p>{{ $paper.question }}</p></section>
+    <section><h2>Main contribution</h2><p>{{ $paper.takeaway }}</p></section>
+    <section><h2>When this work is useful</h2><p>{{ $paper.use }}</p></section>
+  </div>
+  <section class="pp-paper-citation" aria-labelledby="paper-citation">
+    <h2 id="paper-citation">Cite this paper</h2>
+    <p>{{ delimit $paper.authors ", " }}. {{ .Title }}. <em>{{ $paper.venue }}</em>, {{ $paper.year }}.</p>
+    <p><a href="{{ .RelPermalink }}cite.bib" download>Download the publication citation (.bib)</a></p>
+    {{ with .Resources.GetMatch "cite.bib" }}<pre aria-label="BibTeX citation"><code>{{ .Content }}</code></pre>{{ end }}
+  </section>
+  <aside class="pp-paper-related" aria-label="Related research">
+    <h2>Related research</h2>
+    <ul>{{ range where site.RegularPages "Type" "paper" }}{{ if ne .RelPermalink $.RelPermalink }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> <span>· {{ .Params.paper.venue_short }}</span></li>
+    {{ end }}{{ end }}</ul>
+  </aside>
+</article>
+{{ end }}
