@@ -57,7 +57,7 @@ jobs:
 
       - name: Build website
 
-        run: hugo --minify --baseURL "https://pablo-piantanida.org/"
+        run: hugo --minify --baseURL "https://pablo.piantanida.org/"
 
       - name: Upload website
 
