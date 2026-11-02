@@ -1,0 +1,11 @@
+{{ define "main" }}
+<article class="pp-topic-page">
+  <header class="pp-topic-header">
+    <a class="pp-paper-back" href="{{ "/#research" | relURL }}">← Research directions</a>
+    <p class="pp-topic-eyebrow">Research theme</p>
+    <h1>{{ .Title }}</h1>
+    <p class="pp-topic-question">{{ .Params.lead_question }}</p>
+  </header>
+  <div class="pp-topic-content">{{ .Content }}</div>
+</article>
+{{ end }}
