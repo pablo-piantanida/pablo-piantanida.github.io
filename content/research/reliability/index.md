@@ -30,6 +30,9 @@
 <a href="/papers/doctor/">Paper overview →</a>
 <a href="https://proceedings.neurips.cc/paper/2021/hash/2cb6b10338a7fc4117a80da24b582060-Abstract.html">Paper ↗</a>
 <a href="https://arxiv.org/abs/2106.02395">arXiv ↗</a>
+<a href="https://github.com/fgranese/DOCTOR">Code ↗</a>
+<a href="https://neurips.cc/media/neurips-2021/Slides/28016.pdf">Slides ↗</a>
+<a href="https://neurips.cc/virtual/2021/poster/28016">Presentation ↗</a>
 </div>
 </article>
 <article class="pp-topic-paper">
@@ -40,6 +43,9 @@
 <a href="/papers/relative-uncertainty/">Paper overview →</a>
 <a href="https://proceedings.iclr.cc/paper_files/paper/2024/file/5e0da5da69b71349ae0bd7ad716e4bc9-Paper-Conference.pdf">Paper ↗</a>
 <a href="https://arxiv.org/abs/2306.01710">arXiv ↗</a>
+<a href="https://github.com/edadaltocg/relative-uncertainty">Code ↗</a>
+<a href="https://github.com/edadaltocg/relative-uncertainty/releases/tag/checkpoints">Model checkpoints ↗</a>
+<a href="https://iclr.cc/virtual/2024/poster/17676">Poster & presentation ↗</a>
 </div>
 </article>
 <article class="pp-topic-paper">
@@ -49,6 +55,8 @@
 <div class="pp-topic-paper-links">
 <a href="https://icml.cc/virtual/2024/poster/33759">Paper ↗</a>
 <a href="https://arxiv.org/abs/2406.06968">arXiv ↗</a>
+<a href="https://zenodo.org/records/11281964">Archived code ↗</a>
+<a href="https://icml.cc/media/PosterPDFs/ICML%202024/33759.png?t=1721579758.0505557">Poster ↗</a>
 </div>
 </article>
 <article class="pp-topic-paper">

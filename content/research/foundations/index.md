@@ -29,6 +29,8 @@
 <div class="pp-topic-paper-links">
 <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/7e6f445a74cdb71931aac64f1e3f49c9-Abstract-Conference.html">Paper ↗</a>
 <a href="https://arxiv.org/abs/2406.07640">arXiv ↗</a>
+<a href="https://github.com/ills-montreal/emir">Code ↗</a>
+<a href="https://neurips.cc/virtual/2024/poster/94873">Poster & presentation ↗</a>
 </div>
 </article>
 <article class="pp-topic-paper">
@@ -38,6 +40,10 @@
 <div class="pp-topic-paper-links">
 <a href="https://proceedings.neurips.cc/paper_files/paper/2025/file/9e11d680214e92c1683aaf80ae30febe-Paper-Conference.pdf">Paper ↗</a>
 <a href="https://arxiv.org/abs/2510.18680">arXiv ↗</a>
+<a href="https://github.com/ills-montreal/nlp-distill">Code: NLP ↗</a>
+<a href="https://github.com/ills-montreal/mol-distill">Code: molecules ↗</a>
+<a href="https://github.com/ills-montreal/vision-distill/">Code: vision ↗</a>
+<a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/115301">Poster & presentation ↗</a>
 </div>
 </article>
 <article class="pp-topic-paper">
@@ -56,6 +62,8 @@
 <div class="pp-topic-paper-links">
 <a href="https://proceedings.mlr.press/v162/pichler22a.html">Paper ↗</a>
 <a href="https://arxiv.org/abs/2202.06618">arXiv ↗</a>
+<a href="https://github.com/g-pichler/knife">Code ↗</a>
+<a href="https://icml.cc/media/PosterPDFs/ICML%202022/2d36b5821f8affc6868b59dfc9af6c9f.png?t=1657471992.0265052">Poster ↗</a>
 </div>
 </article>
 </div>

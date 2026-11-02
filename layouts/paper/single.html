@@ -12,6 +12,7 @@
       <a href="{{ $paper.url }}">Publication ↗</a>
       <a href="https://arxiv.org/abs/{{ $paper.arxiv }}">arXiv ↗</a>
       {{ with $paper.code }}<a href="{{ . }}">Code ↗</a>{{ end }}
+      {{ range $paper.resources }}<a href="{{ .url }}">{{ .label }} ↗</a>{{ end }}
       <a href="{{ .RelPermalink }}cite.bib" download>Download BibTeX</a>
     </nav>
   </header>
