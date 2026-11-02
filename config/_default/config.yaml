@@ -1,6 +1,6 @@
 # Hugo configuration for the existing Wowchemy project (v5)
 title: Pablo Piantanida
-baseURL: 'https://pablo-piantanida.org/'
+baseURL: 'https://pablo.piantanida.org/'
 defaultContentLanguage: en
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
