@@ -13,7 +13,7 @@ sections:
               <p class="pp-eyebrow">PROFESSOR · RESEARCHER</p>
               <h1>Pablo Piantanida</h1>
               <p class="pp-role">Professor, CentraleSupélec · Université Paris-Saclay<br>Director, CNRS International Laboratory on Learning Systems (ILLS)</p>
-              <p class="pp-affiliations pp-affiliations-top">Associate Academic Member, Mila · Adjunct Professor, ÉTS Montréal</p>
+              <p class="pp-affiliations pp-affiliations-top">Associate Academic Member, Mila · Adjunct Professor, McGill University and ÉTS Montréal</p>
               <div class="pp-employer-logos" aria-label="Institutional affiliations"><img class="pp-cs-logo" src="/images/logo-centralesupelec.png" alt="CentraleSupélec"><img class="pp-saclay-logo" src="/images/logo-paris-saclay.png" alt="Université Paris-Saclay"><img class="pp-cnrs-logo" src="/images/logo-cnrs.png" alt="CNRS"></div>
             </div>
             <div class="pp-v6-profile">
