@@ -503,4 +503,6 @@ body a:not(.btn):not(.pp-button):focus {
 .pp-biography summary {display:list-item;width:fit-content;max-width:100%;cursor:pointer;color:#1266bf;font-weight:650;padding:.35rem 0;}
 .pp-biography summary:focus-visible {outline:2px solid #1266bf;outline-offset:4px;}
 .pp-biography-full {padding-top:.8rem;}
+.pp-biography-full p {text-align:justify;hyphens:auto;}
+@media(max-width:650px){.pp-biography-full p{text-align:left;hyphens:manual;}}
 @media print {.pp-biography details:not([open]) > .pp-biography-full {display:block;}}
