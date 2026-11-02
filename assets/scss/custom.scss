@@ -510,3 +510,7 @@ body a:not(.btn):not(.pp-button):focus {
 /* Match the expanded biography alignment in the research introduction. */
 .pp-v6-research-copy .pp-summary {text-align:justify;hyphens:auto;}
 @media(max-width:650px){.pp-v6-research-copy .pp-summary{text-align:left;hyphens:manual;}}
+
+/* Match biography and research alignment in the Openings copy. */
+.pp-openings-panel > div:first-child > p:not(.pp-people-eyebrow) {text-align:justify;hyphens:auto;}
+@media(max-width:650px){.pp-openings-panel > div:first-child > p:not(.pp-people-eyebrow){text-align:left;hyphens:manual;}}
