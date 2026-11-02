@@ -1,0 +1,6 @@
+{{/* Use a 96px favicon for browsers and search, retaining larger app icon sizes. */}}
+{{ $size := . }}
+{{ if eq $size 32 }}{{ $size = 96 }}{{ end }}
+{{ $icon := resources.GetMatch "media/icon.png" }}
+{{ $icon_resized := $icon.Fill (printf "%sx%s Center" (string $size) (string $size)) }}
+{{ return $icon_resized }}
