@@ -29,6 +29,7 @@
 <div class="pp-topic-paper-links">
 <a href="https://aclanthology.org/2025.emnlp-main.1145/">Paper ↗</a>
 <a href="https://arxiv.org/abs/2507.14063">arXiv ↗</a>
+<a href="https://github.com/LautaroEst/crsa">Code ↗</a>
 </div>
 </article>
 <article class="pp-topic-paper">
@@ -38,6 +39,8 @@
 <div class="pp-topic-paper-links">
 <a href="https://doi.org/10.1145/3726302.3730239">Paper ↗</a>
 <a href="https://arxiv.org/abs/2505.03676">arXiv ↗</a>
+<a href="https://github.com/arthur-75/Rational-Retrieval-Acts">Code ↗</a>
+<a href="https://github.com/arthur-75/Rational-Retrieval-Acts/blob/main/poster_SIGIR.svg">Poster ↗</a>
 </div>
 </article>
 <article class="pp-topic-paper">
