@@ -442,3 +442,24 @@ body a:not(.btn):not(.pp-button):focus {
 .pp-teaching-curriculum p{font-size:.93rem;line-height:1.7;margin:0;color:#40536b}
 .pp-teaching-note{font-size:.82rem;color:#65778e;margin:1rem 0 0}
 @media(max-width:680px){.pp-teaching-grid{grid-template-columns:1fr}.pp-teaching-card{padding:1.2rem}}
+
+/* Individual research papers */
+.pp-paper-page{max-width:1000px;margin:0 auto;padding:3rem 1.25rem 4rem;line-height:1.75}
+.pp-paper-back{font-size:.88rem;font-weight:650}
+.pp-paper-venue{font-size:.8rem;font-weight:750;letter-spacing:.07em;color:#526b87;margin:1.8rem 0 .7rem;text-transform:uppercase}
+.pp-paper-header h1{font-size:clamp(1.8rem,3.2vw,2.7rem);line-height:1.2;color:#173b63;margin:0 0 1rem;overflow-wrap:break-word}
+.pp-paper-authors{font-size:.95rem;color:#435b73;margin:0 0 1.2rem}
+.pp-paper-summary{font-size:1.12rem;color:#263e55;max-width:850px}
+.pp-paper-links{display:flex;align-items:center;flex-wrap:wrap;gap:.85rem 1.2rem;margin:1.5rem 0 2rem;font-size:.9rem;font-weight:650}
+.pp-paper-page h2{font-size:1.3rem;color:#173b63;margin:0 0 .8rem;line-height:1.35}
+.pp-paper-abstract{padding:1.6rem;background:#f8fafc;border:1px solid #dce5ef;border-radius:12px;margin:0 0 2rem}
+.pp-paper-abstract p{font-size:.96rem;margin:0}
+.pp-paper-explainer{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.5rem;margin:2rem 0}
+.pp-paper-explainer section:last-child{grid-column:1/-1;border-left:3px solid #2b6a94;padding-left:1.2rem}
+.pp-paper-explainer p{font-size:.95rem;color:#40536b;margin:0}
+.pp-paper-citation{border-top:1px solid #dce5ef;padding-top:1.6rem;margin-top:2rem}
+.pp-paper-citation pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f5f8fb;border:1px solid #dce5ef;border-radius:8px;padding:1.2rem;font-size:.78rem;line-height:1.65;color:#263e55}
+.pp-paper-related{border-top:1px solid #dce5ef;padding-top:1.5rem;margin-top:2rem}
+.pp-paper-related li{margin-bottom:.7rem;font-size:.93rem}
+.pp-paper-related span{color:#65778e;font-size:.83rem}
+@media(max-width:680px){.pp-paper-page{padding:2rem 1rem 3rem}.pp-paper-explainer{grid-template-columns:1fr}.pp-paper-abstract{padding:1.2rem}.pp-paper-links{gap:.8rem 1rem}}
