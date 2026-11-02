@@ -151,6 +151,24 @@ sections:
     design:
       columns: '1'
   - block: markdown
+    id: teaching
+    content:
+      title: "Teaching"
+      text: |-
+        <p class="pp-section-lead">My teaching connects information theory, mathematical foundations, and machine learning, through engineering courses and graduate research programmes.</p>
+        <h3 class="pp-teaching-heading">Selected courses</h3>
+        <div class="pp-teaching-grid">
+          <article class="pp-teaching-card"><p class="pp-teaching-date">2021–present</p><h4>Deep Learning</h4><p class="pp-teaching-institution">CentraleSupélec · Third-year engineering programme</p></article>
+          <article class="pp-teaching-card"><p class="pp-teaching-date">2019–2020</p><h4>Foundations of Privacy and Machine Learning</h4><p class="pp-teaching-institution">Parisian Master of Research in Computer Science (MPRI) · Graduate level</p></article>
+          <article class="pp-teaching-card"><p class="pp-teaching-date">2009–2018</p><h4>Elements of Information Theory</h4><p class="pp-teaching-institution">CentraleSupélec · Research master’s programme</p></article>
+          <article class="pp-teaching-card"><p class="pp-teaching-date">2009–2016</p><h4>Network Information Theory</h4><p class="pp-teaching-institution">CentraleSupélec · Research master’s programme</p></article>
+          <article class="pp-teaching-card"><p class="pp-teaching-date">2015–2018</p><h4>Mathematics of Information and Source Coding</h4><p class="pp-teaching-institution">Télécom ParisTech · CentraleSupélec · Université Paris-Sud · Graduate level</p></article>
+        </div>
+        <div class="pp-teaching-curriculum"><h3>Curriculum development</h3><p>Course responsibility and curriculum design for <strong>Information Theory and Information Complexity</strong>, first-year engineering programme at CentraleSupélec, 2017–2018.</p></div>
+        <p class="pp-teaching-note">Selected teaching history. Course availability and materials may vary.</p>
+    design:
+      columns: '1'
+  - block: markdown
     id: people
     content:
       title: "People"

@@ -429,3 +429,16 @@ body a:not(.btn):not(.pp-button):focus {
   color: #0b2545 !important;
 }
 
+
+/* Teaching: selected courses and curriculum development */
+.pp-teaching-heading{font-size:1.35rem;color:#173b63;margin:1.6rem 0 1rem}
+.pp-teaching-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.15rem}
+.pp-teaching-card{min-width:0;border:1px solid #dce5ef;border-radius:12px;background:#f8fafc;padding:1.35rem 1.45rem}
+.pp-teaching-card h4{font-size:1.08rem;line-height:1.4;color:#173b63;margin:0 0 .7rem}
+.pp-teaching-date{font-size:.8rem;font-weight:700;color:#56708d;margin:0 0 .65rem}
+.pp-teaching-institution{font-size:.9rem;line-height:1.65;color:#40536b;margin:0}
+.pp-teaching-curriculum{border-left:3px solid #2b6a94;padding:.25rem 0 .25rem 1.2rem;margin:1.7rem 0 1rem}
+.pp-teaching-curriculum h3{font-size:1.15rem;color:#173b63;margin:0 0 .65rem}
+.pp-teaching-curriculum p{font-size:.93rem;line-height:1.7;margin:0;color:#40536b}
+.pp-teaching-note{font-size:.82rem;color:#65778e;margin:1rem 0 0}
+@media(max-width:680px){.pp-teaching-grid{grid-template-columns:1fr}.pp-teaching-card{padding:1.2rem}}
