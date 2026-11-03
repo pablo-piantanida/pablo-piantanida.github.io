@@ -6,7 +6,7 @@ type: page
 
 <div class="pp-bibliography">
 
-<p class="pp-bib-download"><a class="pp-button" href="/uploads/Pablo_Piantanida_Full_Publication_List.pdf">Download full publication list (PDF) ↗</a><a class="pp-button" href="/uploads/Pablo_Piantanida_Publications.bib" download>Download BibTeX (.bib) ↗</a></p>
+<p class="pp-bib-download"><a class="pp-button" href="/uploads/Pablo_Piantanida_Full_Publication_List.pdf">Download full publication list (PDF) ↗</a><a class="pp-button" href="/uploads/Pablo_Piantanida_Publications.bib" download>Download BibTeX (.bib) ↗</a><a class="pp-button" href="/biometrics/">Biometrics</a></p>
 <h2>Preprints and submitted manuscripts <span class="pp-bib-count">(5)</span></h2>
 <ol class="pp-bib-list">
 <li><span class="pp-bib-id">[P1]</span> P. Formont, M. Darrin, I. B. Ayed, and P. Piantanida, “MolRGen: A Training and Evaluation Setting for De Novo Molecular Generation with Reasonning Models,” 2026.<span class="pp-bib-links"><a href="https://arxiv.org/abs/2603.18256" rel="noopener noreferrer" target="_blank">arXiv ↗</a><button class="pp-copy-bib" data-bib="@misc{piantanida2026p1,
