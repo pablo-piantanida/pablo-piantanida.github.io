@@ -7,7 +7,7 @@ type: page
 <div class="pp-bibliography">
 
 <p class="pp-bib-download"><a class="pp-button" href="/uploads/Pablo_Piantanida_Full_Publication_List.pdf">Download full publication list (PDF) ↗</a><a class="pp-button" href="/uploads/Pablo_Piantanida_Publications.bib" download>Download BibTeX (.bib) ↗</a></p>
-<h2>Preprints and submitted manuscripts <span class="pp-bib-count">(6)</span></h2>
+<h2>Preprints and submitted manuscripts <span class="pp-bib-count">(5)</span></h2>
 <ol class="pp-bib-list">
 <li><span class="pp-bib-id">[P1]</span> P. Formont, M. Darrin, I. B. Ayed, and P. Piantanida, “MolRGen: A Training and Evaluation Setting for De Novo Molecular Generation with Reasonning Models,” 2026.<span class="pp-bib-links"><a href="https://arxiv.org/abs/2603.18256" rel="noopener noreferrer" target="_blank">arXiv ↗</a><button class="pp-copy-bib" data-bib="@misc{piantanida2026p1,
   title = {MolRGen: A Training and Evaluation Setting for De Novo Molecular Generation with Reasonning Models},
@@ -36,18 +36,11 @@ type: page
   note = {[P4] Y. Bahram, Z. Dehghani, M. Desbos, E. Granger, P. Piantanida, and M. Shateri, “Continuous adversarial meanflow transfer,” 2026.},
   url = {https://arxiv.org/abs/2608.19540}
 }" type="button">Copy BibTeX</button></span></li>
-<li><span class="pp-bib-id">[P5]</span> C. Chataigner, P. Piantanida, and G. Farnadi, “Position: Auditing Is Not Evaluating; LLM Audit Requires Dynamic, Contextual, Budget-Aware and Reliable Evidence,” Feb. 2026, working paper or preprint.<span class="pp-bib-links"><a href="https://hal.science/hal-05498201" rel="noopener noreferrer" target="_blank">Paper ↗</a><button class="pp-copy-bib" data-bib="@misc{piantanida2026p5,
-  title = {Position: Auditing Is Not Evaluating; LLM Audit Requires Dynamic, Contextual, Budget-Aware and Reliable Evidence},
-  author = {C. Chataigner, P. Piantanida, and G. Farnadi},
-  year = {2026},
-  note = {[P5] C. Chataigner, P. Piantanida, and G. Farnadi, “Position: Auditing Is Not Evaluating; LLM Audit Requires Dynamic, Contextual, Budget-Aware and Reliable Evidence,” Feb. 2026, working paper or preprint.},
-  url = {https://hal.science/hal-05498201}
-}" type="button">Copy BibTeX</button></span></li>
-<li><span class="pp-bib-id">[P6]</span> L. Estienne, E. Ernst, M. Vera, P. Piantanida, and L. Ferrer, “Ecuasn : A family of metrics for principled evaluation of uncertainty-augmented systems,” 2026.<span class="pp-bib-links"><a href="https://arxiv.org/abs/2605.20490" rel="noopener noreferrer" target="_blank">arXiv ↗</a><button class="pp-copy-bib" data-bib="@misc{piantanida2026p6,
+<li><span class="pp-bib-id">[P5]</span> L. Estienne, E. Ernst, M. Vera, P. Piantanida, and L. Ferrer, “Ecuasn : A family of metrics for principled evaluation of uncertainty-augmented systems,” 2026.<span class="pp-bib-links"><a href="https://arxiv.org/abs/2605.20490" rel="noopener noreferrer" target="_blank">arXiv ↗</a><button class="pp-copy-bib" data-bib="@misc{piantanida2026p6,
   title = {Ecuasn : A family of metrics for principled evaluation of uncertainty-augmented systems},
   author = {L. Estienne, E. Ernst, M. Vera, P. Piantanida, and L. Ferrer},
   year = {2026},
-  note = {[P6] L. Estienne, E. Ernst, M. Vera, P. Piantanida, and L. Ferrer, “Ecuasn : A family of metrics for principled evaluation of uncertainty-augmented systems,” 2026.},
+  note = {[P5] L. Estienne, E. Ernst, M. Vera, P. Piantanida, and L. Ferrer, “Ecuasn : A family of metrics for principled evaluation of uncertainty-augmented systems,” 2026.},
   url = {https://arxiv.org/abs/2605.20490}
 }" type="button">Copy BibTeX</button></span></li>
 </ol>
