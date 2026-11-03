@@ -24,7 +24,7 @@
 <div class="pp-topic-papers">
 <article class="pp-topic-paper">
 <p class="pp-topic-venue">NeurIPS · 2024</p>
-<h3><a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/7e6f445a74cdb71931aac64f1e3f49c9-Abstract-Conference.html">When Is an Embedding Model More Promising Than Another?</a></h3>
+<h3><a href="/papers/embedding-comparison/">When Is an Embedding Model More Promising Than Another?</a></h3>
 <p>Comparing representations through their potential usefulness across downstream tasks.</p>
 <div class="pp-topic-paper-links">
 <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/7e6f445a74cdb71931aac64f1e3f49c9-Abstract-Conference.html">Paper ↗</a>
