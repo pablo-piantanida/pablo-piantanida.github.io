@@ -11,7 +11,6 @@
 <p>My research investigates how agents with different information can communicate and cooperate. It connects information-theoretic foundations of distributed inference with pragmatic models of retrieval and dialogue.</p>
 <p>A central theme is that communication should be understood through its contribution to a shared task: what an agent communicates, what another agent can infer, and how the exchange changes subsequent decisions.</p>
 </div>
-<figure style="max-width: 640px; margin: 1.5rem auto;"><img src="/images/collaborative-multimodal-chatbots.jpg" alt="Three multimodal chatbot agents with image, audio, and text inputs. A teal arrow shows one message sent along the network." width="1200" height="600" style="display: block; width: 100%; height: auto;"></figure>
 <section class="pp-topic-questions" aria-labelledby="key-questions">
 <h2 id="key-questions">Key questions</h2>
 <ul>
