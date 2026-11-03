@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+<title id="title">Evaluating AI systems while they work</title>
+<desc id="desc">A user gives a task to an AI system. A supervisor observes its visible execution, can send guidance, and returns an evidence summary to the user. The AI system returns the final answer.</desc>
+<defs>
+<marker id="navy" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5L0 9" fill="#235480"/></marker>
+<marker id="teal" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5L0 9" fill="#208b8b"/></marker>
+<marker id="amber" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5L0 9" fill="#c78723"/></marker>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#17334c}.title{font-size:29px;font-weight:700}.heading{font-size:23px;font-weight:700}.label{font-size:18px}.small{font-size:16px;fill:#526779}.step{font-size:20px;font-weight:700}.navy{fill:none;stroke:#235480;stroke-width:2.5;marker-end:url(#navy)}.teal{fill:none;stroke:#208b8b;stroke-width:2.5;marker-end:url(#teal)}.guidance{fill:none;stroke:#c78723;stroke-width:3;stroke-dasharray:7 5;marker-end:url(#amber)}</style>
+</defs>
+<rect width="1200" height="700" rx="18" fill="#fff"/>
+<text x="40" y="47" class="title">Evaluating AI systems while they work</text>
+<rect x="630" y="85" width="330" height="162" rx="16" fill="#eaf6f5" stroke="#208b8b" stroke-width="2"/>
+<text x="795" y="121" text-anchor="middle" class="heading">Supervisor</text>
+<text x="795" y="152" text-anchor="middle" class="small">Assess the available evidence</text>
+<text x="795" y="183" text-anchor="middle" class="label">Stay silent · Ask for a check</text>
+<text x="795" y="213" text-anchor="middle" class="label">Send guidance · Seek human input</text>
+<path d="M630 166H130V310" class="teal"/>
+<rect x="269" y="139" width="223" height="29" rx="5" fill="#fff"/>
+<text x="380" y="159" class="label" text-anchor="middle">Evidence summary</text>
+<rect x="40" y="310" width="180" height="160" rx="16" fill="#edf3f9" stroke="#235480" stroke-width="2"/>
+<circle cx="130" cy="347" r="13" fill="none" stroke="#235480" stroke-width="2.5"/>
+<path d="M103 380Q130 352 157 380" fill="none" stroke="#235480" stroke-width="2.5"/>
+<text x="130" y="414" text-anchor="middle" class="heading">User</text>
+<text x="130" y="443" text-anchor="middle" class="small">Task and priorities</text>
+<rect x="280" y="310" width="880" height="240" rx="16" fill="#f5f8fc" stroke="#a9bfd2" stroke-width="1.5"/>
+<text x="310" y="349" class="heading">AI system</text>
+<text x="310" y="378" class="small">Visible steps, messages, and tool results</text>
+<path d="M220 395H279" class="navy"/>
+<rect x="315" y="412" width="160" height="80" rx="10" fill="#fff" stroke="#b5cadb"/>
+<text x="395" y="445" text-anchor="middle" class="step">Plan</text><text x="395" y="473" text-anchor="middle" class="small">Choose a strategy</text>
+<path d="M476 452H519" class="navy"/>
+<rect x="520" y="412" width="160" height="80" rx="10" fill="#fff" stroke="#b5cadb"/>
+<text x="600" y="445" text-anchor="middle" class="step">Use tools</text><text x="600" y="473" text-anchor="middle" class="small">Acquire evidence</text>
+<path d="M681 452H724" class="navy"/>
+<rect x="725" y="412" width="160" height="80" rx="10" fill="#fff8eb" stroke="#c78723" stroke-width="1.7"/>
+<text x="805" y="445" text-anchor="middle" class="step">Check</text><text x="805" y="473" text-anchor="middle" class="small">Revise if needed</text>
+<path d="M886 452H929" class="navy"/>
+<rect x="930" y="412" width="190" height="80" rx="10" fill="#fff" stroke="#b5cadb"/>
+<text x="1025" y="445" text-anchor="middle" class="step">Answer</text><text x="1025" y="473" text-anchor="middle" class="small">Complete the task</text>
+<path d="M1090 310V167H962" class="teal"/>
+<text x="1080" y="281" text-anchor="end" class="small">Observe execution</text>
+<path d="M805 248V408" class="guidance"/>
+<rect x="698" y="264" width="214" height="29" rx="5" fill="#fff"/>
+<text x="805" y="284" text-anchor="middle" class="label" style="fill:#98621b">Guidance when useful</text>
+<path d="M1025 493V590H130V472" class="navy"/>
+<rect x="492" y="575" width="151" height="29" rx="5" fill="#fff"/>
+<text x="567" y="596" class="label" text-anchor="middle">Final answer</text>
+<text x="600" y="651" text-anchor="middle" class="heading">When is an intervention worth its cost?</text>
+<text x="600" y="680" text-anchor="middle" class="small">Partial observations · Uncertainty · User priorities · Limited resources</text>
+</svg>
