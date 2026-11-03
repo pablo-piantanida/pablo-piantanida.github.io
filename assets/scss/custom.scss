@@ -534,3 +534,16 @@ body a:not(.btn):not(.pp-button):focus {
 /* Match biography and research alignment in the Openings copy. */
 .pp-openings-panel > div:first-child > p:not(.pp-people-eyebrow) {text-align:justify;hyphens:auto;}
 @media(max-width:650px){.pp-openings-panel > div:first-child > p:not(.pp-people-eyebrow){text-align:left;hyphens:manual;}}
+
+.pp-biometrics section {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border: 1px solid #dce4ec;
+  border-radius: 10px;
+}
+.pp-biometrics section > img { display: block; width: 100%; height: auto; }
+.pp-biometrics details { padding: .8rem 0; border-top: 1px solid #dce4ec; }
+.pp-biometrics summary { cursor: pointer; font-weight: 650; color: #173b63; }
+.pp-biometrics details ul { margin-top: .8rem; }
+.pp-biometrics-source { font-size: .85rem; color: #526779; }
+@media (max-width:650px) { .pp-biometrics section { padding: .8rem; } }
