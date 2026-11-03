@@ -10,6 +10,7 @@
 <div class="pp-topic-intro">
 <p>My research studies how intelligent systems can recognize uncertainty, identify potential failures, and support decisions about when to act, reject a prediction, or seek additional evidence.</p>
 <p>This work connects statistical measures of uncertainty with practical evaluation methods. It spans classification and regression, generated-content assessment, and the privacy risks associated with trained models.</p>
+<p>Our work on prediction errors leads to a practical question for auditors: what evidence should they collect next under a limited testing budget? Our <a href="https://hal.science/hal-05498201v1">position paper on language-model auditing</a> examines this question in changing deployment contexts.</p>
 </div>
 <section class="pp-topic-questions" aria-labelledby="key-questions">
 <h2 id="key-questions">Key questions</h2>

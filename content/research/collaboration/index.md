@@ -24,7 +24,7 @@
 <div class="pp-topic-papers">
 <article class="pp-topic-paper">
 <p class="pp-topic-venue">EMNLP · 2025</p>
-<h3><a href="https://aclanthology.org/2025.emnlp-main.1145/">Collaborative Rational Speech Act: Pragmatic Reasoning for Multi-Turn Dialog</a></h3>
+<h3><a href="/papers/collaborative-rsa/">Collaborative Rational Speech Act: Pragmatic Reasoning for Multi-Turn Dialog</a></h3>
 <p>Studying collaborative dialogue between agents with private information.</p>
 <div class="pp-topic-paper-links">
 <a href="https://aclanthology.org/2025.emnlp-main.1145/">Paper ↗</a>
