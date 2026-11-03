@@ -555,3 +555,20 @@ body a:not(.btn):not(.pp-button):focus {
 .pp-phd-offer-figure { margin: 1.5rem 0 2rem; }
 .pp-phd-offer-figure img { display: block; width: 100%; height: auto; }
 .pp-phd-offer-figure figcaption { margin-top: .65rem; font-size: .8rem; line-height: 1.5; color: #526779; }
+
+.pp-phd-partner-logos {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  align-items: center;
+  gap: 1.2rem;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid #dce4ec;
+  border-radius: 8px;
+}
+.pp-phd-partner-logos img { display: block; width: 100%; height: 65px; object-fit: contain; margin: 0; }
+@media (max-width:650px) {
+  .pp-phd-partner-logos { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+  .pp-phd-partner-logos img { height: 60px; }
+}
