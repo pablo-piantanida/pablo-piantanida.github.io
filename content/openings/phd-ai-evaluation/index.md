@@ -1,6 +1,6 @@
 ---
 title: "PhD in Evaluation and Reliable Supervision of AI Systems"
-type: page
+type: phd-offer
 description: "PhD opportunity within REGARD with Pablo Piantanida and Jackie Cheung. Montréal at ILLS and Mila, intended start January 2027, competitive funding, and possible Paris-Saclay–McGill cotutelle."
 ---
 
@@ -9,6 +9,11 @@ description: "PhD opportunity within REGARD with Pablo Piantanida and Jackie Che
 **REGARD project · Pablo Piantanida and Jackie Cheung**
 
 **Possibility of a cotutelle between Université Paris-Saclay and McGill University**
+
+<figure class="pp-phd-offer-figure">
+  <a href="/images/openings/ai-supervision.svg"><img src="/images/openings/ai-supervision.svg" width="1200" height="700" alt="A user gives a task to an AI system. A supervisor observes its visible execution, sends guidance when useful, and reports evidence to the user. The AI system returns the final answer."></a>
+  <figcaption>A supervisor evaluates the available evidence and decides when guidance is worth its cost. Select the illustration to view it at full size.</figcaption>
+</figure>
 
 ## How can we know when an AI system needs help?
 

@@ -547,3 +547,11 @@ body a:not(.btn):not(.pp-button):focus {
 .pp-biometrics details ul { margin-top: .8rem; }
 .pp-biometrics-source { font-size: .85rem; color: #526779; }
 @media (max-width:650px) { .pp-biometrics section { padding: .8rem; } }
+
+.pp-phd-offer > header h1 {
+  font-size: clamp(1.7rem, 3vw, 2rem);
+  line-height: 1.2;
+}
+.pp-phd-offer-figure { margin: 1.5rem 0 2rem; }
+.pp-phd-offer-figure img { display: block; width: 100%; height: auto; }
+.pp-phd-offer-figure figcaption { margin-top: .65rem; font-size: .8rem; line-height: 1.5; color: #526779; }
