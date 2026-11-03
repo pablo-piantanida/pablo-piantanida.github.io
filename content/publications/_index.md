@@ -196,11 +196,11 @@ type: page
   note = {[J21] ——, “Finite-Length Bounds on Hypothesis Testing Subject to Vanishing Type I Error Restric- tions,” IEEE Signal Processing Letters, vol. 28, pp. 229–233, 2021.},
   url = {https://doi.org/10.1109/lsp.2021.3050381}
 }" type="button">Copy BibTeX</button></span></li>
-<li><span class="pp-bib-id">[J22]</span> G. Pichler, P. Piantanida, and G. Matz, “Distributed information-theoretic clustering,” <em class="pp-bib-venue">Infor- mation and Inference: A Journal of the IMA</em>, vol. 11, no. 1, pp. 137–166, March 2022.<span class="pp-bib-links"><a href="https://doi.org/10.1093/imaiai/iaab007" rel="noopener noreferrer" target="_blank">Paper ↗</a><a href="https://arxiv.org/abs/1602.04605" rel="noopener noreferrer" target="_blank">arXiv ↗</a><button class="pp-copy-bib" data-bib="@misc{piantanida2022j22,
+<li><span class="pp-bib-id">[J22]</span> G. Pichler, P. Piantanida, and G. Matz, “Distributed information-theoretic clustering,” <em class="pp-bib-venue">Information and Inference: A Journal of the IMA</em>, vol. 11, no. 1, pp. 137–166, March 2022.<span class="pp-bib-links"><a href="https://doi.org/10.1093/imaiai/iaab007" rel="noopener noreferrer" target="_blank">Paper ↗</a><a href="https://arxiv.org/abs/1602.04605" rel="noopener noreferrer" target="_blank">arXiv ↗</a><button class="pp-copy-bib" data-bib="@misc{piantanida2022j22,
   title = {Distributed information-theoretic clustering},
   author = {G. Pichler, P. Piantanida, and G. Matz},
   year = {2022},
-  note = {[J22] G. Pichler, P. Piantanida, and G. Matz, “Distributed information-theoretic clustering,” Infor- mation and Inference: A Journal of the IMA, vol. 11, no. 1, pp. 137–166, March 2022.},
+  note = {[J22] G. Pichler, P. Piantanida, and G. Matz, “Distributed information-theoretic clustering,” Information and Inference: A Journal of the IMA, vol. 11, no. 1, pp. 137–166, March 2022.},
   url = {https://doi.org/10.1093/imaiai/iaab007}
 }" type="button">Copy BibTeX</button></span></li>
 <li><span class="pp-bib-id">[J23]</span> K. Wan, D. Tuninetti, M. Ji, and P. Piantanida, “Combination Networks With End-User-Caches: Novel Achievable and Converse Bounds Under Uncoded Cache Placement,” <em class="pp-bib-venue">IEEE Transactions on Information Theory</em>, vol. 68, no. 2, pp. 806–827, February 2022.<span class="pp-bib-links"><a href="https://doi.org/10.1109/tit.2021.3127905" rel="noopener noreferrer" target="_blank">Paper ↗</a><a href="https://arxiv.org/abs/1701.06884" rel="noopener noreferrer" target="_blank">arXiv ↗</a><button class="pp-copy-bib" data-bib="@misc{piantanida2022j23,
