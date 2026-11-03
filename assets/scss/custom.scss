@@ -286,10 +286,10 @@ section.home-section {padding-top:55px;padding-bottom:55px;}
 
 /* Prominent full-publications call to action */
 .pp-publications-more {margin:2.1rem 0 1.3rem;text-align:center;}
-.pp-publications-more a {display:inline-flex;align-items:center;justify-content:center;gap:.55rem;padding:.92rem 1.6rem;background:#173b63;color:#fff!important;border:2px solid #173b63;border-radius:9px;font-weight:750;font-size:1.07rem;letter-spacing:.01em;text-decoration:none!important;box-shadow:0 5px 15px rgba(23,59,99,.16);transition:background .18s ease,transform .18s ease,box-shadow .18s ease;}
+.pp-publications-more a {display:inline-flex;align-items:center;justify-content:center;gap:.55rem;padding:.35rem .65rem;background:#173b63;color:#fff!important;border:2px solid #173b63;border-radius:9px;font-weight:750;font-size:.8rem;line-height:1.35;letter-spacing:.01em;text-decoration:none!important;box-shadow:0 5px 15px rgba(23,59,99,.16);transition:background .18s ease,transform .18s ease,box-shadow .18s ease;}
 .pp-publications-more a:hover,.pp-publications-more a:focus-visible {background:#0b2949;color:#fff!important;transform:translateY(-2px);box-shadow:0 8px 20px rgba(23,59,99,.23);}
 .pp-publications-more a:focus-visible {outline:3px solid #7bb6ef;outline-offset:3px;}
-@media(max-width:540px){.pp-publications-more a{width:100%;max-width:340px;padding:.85rem 1rem;}}
+
 
 /* v7.34: original supplied Amazon Research Awards logo, dark background retained. */
 .pp-collab-item .pp-collab-logo-amazon{max-width:210px;height:84px;object-fit:contain;border-radius:4px}
