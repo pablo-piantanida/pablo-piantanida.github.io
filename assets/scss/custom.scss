@@ -60,7 +60,17 @@ section.home-section {padding-top:55px;padding-bottom:55px;}
 .pp-publications-more a {font-weight:700;color:#173b63;text-decoration:none;}
 .pp-bibliography {max-width:1000px;margin:0 auto;padding:1.5rem 0 4rem;}
 .pp-bib-intro {color:#536374;max-width:760px;}
-.pp-bib-download {margin:1.7rem 0 3rem;}
+.pp-bib-download {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin: 1.7rem 0 3rem;
+}
+.pp-bib-download .pp-button {
+  padding: .35rem .65rem;
+  font-size: .8rem;
+  line-height: 1.35;
+}
 .pp-bibliography h2 {font-size:1.65rem;color:#173b63;margin:2.5rem 0 1.1rem;padding-bottom:.6rem;border-bottom:1px solid #dce5ed;}
 .pp-bib-count {font-size:.85rem;color:#7b8894;font-weight:400;}
 .pp-bib-list {list-style:none;margin:0;padding:0;}
