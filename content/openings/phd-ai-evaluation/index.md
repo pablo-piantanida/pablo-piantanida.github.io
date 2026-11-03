@@ -6,6 +6,13 @@ description: "PhD opportunity within REGARD with Pablo Piantanida and Jackie Che
 
 [← Prospective students and researchers](/#openings)
 
+<div class="pp-phd-partner-logos" aria-label="Research institutions">
+  <img src="/images/logo-mila.png" alt="Mila" width="797" height="400">
+  <img src="/images/logo-ills.png" alt="ILLS — International Laboratory on Learning Systems" width="2504" height="1017">
+  <img src="/images/collab-universite-paris-saclay.png" alt="Université Paris-Saclay" width="1000" height="339">
+  <img src="/images/logo-mcgill.jpg" alt="McGill University" width="3326" height="1081">
+</div>
+
 **REGARD project · Pablo Piantanida and Jackie Cheung**
 
 **Possibility of a cotutelle between Université Paris-Saclay and McGill University**
