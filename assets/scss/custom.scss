@@ -572,3 +572,33 @@ body a:not(.btn):not(.pp-button):focus {
   .pp-phd-partner-logos { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
   .pp-phd-partner-logos img { height: 60px; }
 }
+
+
+/* Publications explorer — ILLS-inspired filters and compact catalogue. */
+.pp-publication-browser {margin:1.8rem 0 2.5rem;padding:1.35rem clamp(1rem,2.5vw,1.8rem) 1.1rem;background:#f5f7fa;border:1px solid #d7dfe5;border-radius:6px;}
+.pp-publication-browser h2 {margin:0 0 1rem;padding:0;border:0;color:#09192f;font-size:1.35rem;}
+.pp-pub-types {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.65rem;}
+.pp-pub-types button {display:flex;align-items:center;justify-content:space-between;gap:.7rem;min-width:0;padding:.75rem .9rem;color:#111c35;background:#fff;border:1px solid #d7dfe5;border-radius:4px;text-align:left;font:inherit;line-height:1.35;cursor:pointer;transition:border-color .15s,background .15s,color .15s;}
+.pp-pub-types button:hover {border-color:#1747a7;}
+.pp-pub-types button[aria-pressed="true"] {color:#fff;background:#09192f;border-color:#09192f;}
+.pp-pub-types strong {font-size:.9rem;font-weight:600;}
+.pp-pub-types span {flex:0 0 auto;color:#536277;font:500 .78rem/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;}
+.pp-pub-types button[aria-pressed="true"] span {color:#3bd5cc;}
+.pp-pub-filters {display:grid;grid-template-columns:minmax(0,1fr) minmax(10rem,.28fr);gap:.85rem;margin:1rem 0 .35rem;}
+.pp-pub-filters label {display:grid;gap:.35rem;color:#536277;font-size:.78rem;font-weight:650;}
+.pp-pub-filters input,.pp-pub-filters select {min-width:0;width:100%;padding:.72rem .8rem;color:#111c35;background:#fff;border:1px solid #9daebb;border-radius:3px;font:inherit;font-size:.95rem;}
+.pp-pub-filters input:focus,.pp-pub-filters select:focus {outline:2px solid #3bd5cc;outline-offset:1px;border-color:#1747a7;}
+.pp-pub-tools,.pp-pub-pages {display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem;}
+.pp-pub-tools {justify-content:space-between;margin:.45rem 0 .85rem;}
+.pp-pub-tools p {margin:0;color:#536277;font-size:.84rem;}
+.pp-pub-tools button,.pp-pub-pages button {padding:.25rem 0;color:#1747a7;background:transparent;border:0;font:inherit;font-size:.84rem;text-decoration:underline;text-underline-offset:.18em;cursor:pointer;}
+.pp-pub-pages button:disabled {color:#7b8894;text-decoration:none;cursor:default;}
+.pp-pub-pages {justify-content:space-between;padding:.7rem 0;border-top:1px solid #d7dfe5;font-size:.84rem;color:#536277;}
+.pp-pub-results {list-style:none;margin:0;padding:0;}
+.pp-pub-results > li {display:grid;grid-template-columns:10.5rem minmax(0,1fr);gap:.85rem;padding:1rem 0;border-top:1px solid #d7dfe5;}
+.pp-pub-result-meta {margin:.13rem 0 0;color:#1747a7;font-size:.77rem;font-weight:650;line-height:1.45;}
+.pp-pub-citation {min-width:0;color:#283649;font-size:.9rem;line-height:1.65;overflow-wrap:anywhere;}
+.pp-pub-citation .pp-bib-id {color:#09192f;}
+.pp-pub-empty {margin:1rem 0;padding:1.25rem;background:#fff;border:1px solid #d7dfe5;color:#536277;}
+.pp-pub-empty[hidden],.pp-pub-pages[hidden] {display:none;}
+@media(max-width:760px){.pp-pub-types{grid-template-columns:repeat(2,minmax(0,1fr));gap:.45rem}.pp-pub-types button{padding:.65rem;font-size:.82rem}.pp-pub-filters{grid-template-columns:1fr}.pp-pub-results>li{grid-template-columns:1fr;gap:.1rem}.pp-pub-result-meta{margin:0}.pp-pub-citation{font-size:.88rem}}

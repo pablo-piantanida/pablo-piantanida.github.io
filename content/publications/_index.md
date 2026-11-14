@@ -1909,3 +1909,4 @@ document.addEventListener('click',function(e){
  else {const area=document.createElement('textarea');area.value=bib;document.body.appendChild(area);area.select();document.execCommand('copy');area.remove();btn.textContent='Copied ✓';setTimeout(()=>btn.textContent='Copy BibTeX',1800)}
 });
 </script>
+<script src="/js/publications-filter.js" defer></script>
