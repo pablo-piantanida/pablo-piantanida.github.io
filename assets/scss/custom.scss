@@ -580,5 +580,5 @@ body a:not(.btn):not(.pp-button):focus {
 
 /* Stack the Applications illustration above its text on every screen size. */
 .pp-applications-card{grid-template-columns:1fr;align-items:start}
-.pp-applications-card img{width:100%;max-width:850px;height:auto;margin:0 auto}
+.pp-applications-card img{width:100%;max-width:560px;height:auto;margin:0 auto}
 @media(max-width:700px){.pp-applications-card{grid-template-columns:1fr}.pp-applications-card img{max-width:100%}}
