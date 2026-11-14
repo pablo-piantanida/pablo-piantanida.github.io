@@ -572,3 +572,16 @@ body a:not(.btn):not(.pp-button):focus {
   .pp-phd-partner-logos { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
   .pp-phd-partner-logos img { height: 60px; }
 }
+
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from pathlib import Path; s=Path("assets/scss/custom.scss").read_text(); print(s[s.index("/* Publications explorer — ILLS-inspired filters and compact catalogue. */"):],end="")
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/Cellar/python@3.14/3.14.2/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 787, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.14/3.14.2/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 771, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'assets/scss/custom.scss'
