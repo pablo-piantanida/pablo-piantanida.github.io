@@ -575,8 +575,8 @@ body a:not(.btn):not(.pp-button):focus {
 
 
 /* Use the supplied square topic illustrations at a legible size on the homepage. */
-.pp-research-card img.pp-direction-icon{width:auto;height:auto;max-width:100%;max-height:220px;object-fit:contain;margin:0 auto 1rem}
-@media(max-width:650px){.pp-research-card img.pp-direction-icon{max-height:210px}}
+.pp-research-card img.pp-direction-icon{width:auto;height:auto;max-width:100%;max-height:320px;object-fit:contain;margin:0 auto 1rem}
+@media(max-width:650px){.pp-research-card img.pp-direction-icon{max-height:280px}}
 
 /* Stack the Applications illustration above its text on every screen size. */
 .pp-applications-card{grid-template-columns:1fr;align-items:start}
