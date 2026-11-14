@@ -602,3 +602,12 @@ body a:not(.btn):not(.pp-button):focus {
 .pp-pub-empty {margin:1rem 0;padding:1.25rem;background:#fff;border:1px solid #d7dfe5;color:#536277;}
 .pp-pub-empty[hidden],.pp-pub-pages[hidden] {display:none;}
 @media(max-width:760px){.pp-pub-types{grid-template-columns:repeat(2,minmax(0,1fr));gap:.45rem}.pp-pub-types button{padding:.65rem;font-size:.82rem}.pp-pub-filters{grid-template-columns:1fr}.pp-pub-results>li{grid-template-columns:1fr;gap:.1rem}.pp-pub-result-meta{margin:0}.pp-pub-citation{font-size:.88rem}}
+
+/* Use the supplied square topic illustrations at a legible size on the homepage. */
+.pp-research-card img.pp-direction-icon{width:auto;height:auto;max-width:100%;max-height:320px;object-fit:contain;margin:0 auto 1rem}
+@media(max-width:650px){.pp-research-card img.pp-direction-icon{max-height:280px}}
+
+/* Stack the Applications illustration above its text on every screen size. */
+.pp-applications-card{grid-template-columns:1fr;align-items:start}
+.pp-applications-card img{width:100%;max-width:560px;height:auto;margin:0 auto}
+@media(max-width:700px){.pp-applications-card{grid-template-columns:1fr}.pp-applications-card img{max-width:100%}}
