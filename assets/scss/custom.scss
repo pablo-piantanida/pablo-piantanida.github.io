@@ -611,3 +611,17 @@ body a:not(.btn):not(.pp-button):focus {
 .pp-applications-card{grid-template-columns:1fr;align-items:start}
 .pp-applications-card img{width:100%;max-width:560px;height:auto;margin:0 auto}
 @media(max-width:700px){.pp-applications-card{grid-template-columns:1fr}.pp-applications-card img{max-width:100%}}
+
+
+/* Accessible section headings and publication-chart data tables. */
+.pp-home-section-title{font-size:clamp(1.9rem,3vw,2.65rem);font-weight:300;line-height:1.2;color:#173b63;text-align:center;margin:0 0 1.5rem;}
+.pp-publication-count-note{max-width:900px;margin:-1.6rem 0 2.2rem;padding:.8rem 1rem;border-left:3px solid #a9bfd3;background:#f7f9fb;color:#536374;font-size:.9rem;line-height:1.6;}
+.pp-chart-table-scroll{overflow-x:auto;margin:1rem 0 1.6rem;border:1px solid #dce5ed;border-radius:7px;background:#fff;}
+.pp-chart-table-scroll:focus-visible{outline:3px solid #2874b5;outline-offset:2px;}
+table.pp-chart-data-table{width:100%;min-width:620px;border-collapse:collapse;font-size:.88rem;line-height:1.5;color:#394653;}
+.pp-chart-data-table caption{text-align:left;padding:.75rem .85rem;color:#173b63;font-weight:650;}
+.pp-chart-data-table th,.pp-chart-data-table td{padding:.55rem .7rem;border-top:1px solid #e5ebf0;vertical-align:top;}
+.pp-chart-data-table thead th{background:#f3f6f9;color:#173b63;font-weight:700;}
+.pp-chart-data-table td{text-align:right;font-variant-numeric:tabular-nums;}
+.pp-chart-data-table th[scope=row]{text-align:left;min-width:10rem;}
+@media(max-width:767px){.pp-home-section-title{font-size:2rem}.pp-publication-count-note{margin-bottom:1.6rem;}}

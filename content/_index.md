@@ -50,10 +50,12 @@ sections:
   - block: markdown
     id: openings
     content:
-      title: "Openings"
+      title: ""
       text: |-
+        <h2 class="pp-home-section-title">Openings</h2>
+        
         <div class="pp-openings-panel">
-          <div><p class="pp-people-eyebrow">JOIN THE RESEARCH GROUP</p><h3>Prospective students, interns &amp; postdoctoral researchers</h3><p>Interested in research at the intersection of information theory, statistics, machine learning, and reliable or collaborative AI? I welcome inquiries from prospective master's students, PhD candidates, interns, and postdoctoral researchers.</p><p>To express your interest, please email a <strong>CV, brief motivation letter, and academic transcripts</strong>, together with your research interests and intended start date. Opportunities depend on available projects and funding; this page does not imply that a funded position is currently open.</p><div class="pp-openings-actions"><a class="pp-button" href="mailto:pablo.piantanida@mila.quebec?subject=Research%20opportunity%20inquiry">Contact me ↗</a><a class="pp-button" href="/openings/phd-ai-evaluation/">PhD offer</a></div></div>
+          <div><p class="pp-people-eyebrow">JOIN THE RESEARCH GROUP</p><h3>Prospective students, interns &amp; postdoctoral researchers</h3><p>Interested in research at the intersection of information theory, statistics, machine learning, and reliable or collaborative AI? I welcome inquiries from prospective master's students, PhD candidates, interns, and postdoctoral researchers.</p><p>To express your interest, please email a <strong>CV, brief motivation letter, and academic transcripts</strong>, together with your research interests and intended start date. Other opportunities depend on available projects and funding; see the dedicated PhD offer for its current availability and terms.</p><div class="pp-openings-actions"><a class="pp-button" href="mailto:pablo.piantanida@mila.quebec?subject=Research%20opportunity%20inquiry">Contact me ↗</a><a class="pp-button" href="/openings/phd-ai-evaluation/">PhD offer</a></div></div>
           <div class="pp-openings-tags"><span>PhD research</span><span>Postdoctoral research</span><span>Master's projects</span><span>Research internships</span></div>
         </div>
     design:
@@ -61,8 +63,10 @@ sections:
   - block: markdown
     id: vision
     content:
-      title: "Research vision"
+      title: ""
       text: |-
+        <h2 class="pp-home-section-title">Research vision</h2>
+        
         ### From information theory to the mathematical foundations of reliable and collaborative intelligence
 
         **How can intelligent systems determine what information to acquire, what computations to perform, what evidence to trust, and when to communicate or act?**
@@ -85,9 +89,11 @@ sections:
   - block: markdown
     id: research
     content:
-      title: "Research directions"
+      title: ""
       subtitle: "Three connected themes and their applications"
       text: |-
+        <h2 class="pp-home-section-title">Research directions</h2>
+        
         <div class="pp-research-grid">
         <article class="pp-research-card"><img class="pp-direction-icon" src="/images/home-learning-reasoning.png" alt="Mathematical foundations of learning, representation, and reasoning, illustrated with information-theoretic diagrams and a loss landscape"><h3><a href="/research/foundations/">Learning, representation, and reasoning</a></h3><p class="pp-card-question">How can we choose a representation before we know exactly how it will be used?</p><p>An embedding can perform well on one benchmark yet discard information that matters for another task. I study how to compare representations by the decisions they support. With collaborators, I developed a way to rank embedding models without labeled examples from the eventual task. We tested it on language and molecular data. My current work on statistical deficiency asks how much decision performance can be lost when one representation replaces another.</p><p><a href="/papers/embedding-comparison/">Embedding comparison · NeurIPS 2024</a> · <a href="https://proceedings.neurips.cc/paper_files/paper/2025/file/9e11d680214e92c1683aaf80ae30febe-Paper-Conference.pdf">Multi-Teacher Distillation · NeurIPS 2025</a></p><p class="pp-research-more"><a href="/research/foundations/">Explore this research →</a></p></article>
         <article class="pp-research-card"><img class="pp-direction-icon" src="/images/home-uncertainty-reliability.png" alt="Uncertainty, evaluation, and reliable decision-making, illustrated with calibration, robustness, uncertainty distributions, and risk bounds"><h3><a href="/research/reliability/">Uncertainty, evaluation, and reliable decision-making</a></h3><p class="pp-card-question">When should a system trust its prediction, and what evidence would justify changing its mind?</p><p>A classifier can assign a high probability to a wrong answer. In DOCTOR, we studied how to use the probabilities a trained classifier already produces to flag likely errors. Our subsequent work learned uncertainty measures from data and extended error detection to regression. A question now guiding my research is how an auditor should use a limited testing budget. Our position paper on language-model auditing examines what evidence to collect as the deployment context changes.</p><p><a href="/papers/doctor/">DOCTOR</a> · <a href="/papers/relative-uncertainty/">Relative uncertainty</a> · <a href="https://hal.science/hal-05498201v1">Auditing position paper</a></p><p class="pp-research-more"><a href="/research/reliability/">Explore this research →</a></p></article>
@@ -99,9 +105,11 @@ sections:
   - block: markdown
     id: contributions
     content:
-      title: "Key scientific contributions"
+      title: ""
       subtitle: "Research results connecting information, learning, and decision-making"
       text: |-
+        <h2 class="pp-home-section-title">Key scientific contributions</h2>
+        
         <p class="pp-section-lead">The scientific ideas and methodological advances underlying my research. These <strong>established contributions</strong> complement the ongoing and future questions outlined in the research directions above.</p>
         <div class="pp-key-contributions">
           <article class="pp-key-contribution"><h3>Fundamental limits of distributed inference</h3><p>Information-theoretic formulations of collaborative inference, interactive source coding, and distributed information bottlenecks characterize trade-offs between communication resources and task-relevant information. These results provide a foundation for studying when interaction can improve collective inference.</p><p class="pp-key-evidence"><a href="https://doi.org/10.1109/TIT.2018.2883295" target="_blank" rel="noopener">Collaborative Information Bottleneck ↗</a> · <a href="https://doi.org/10.1007/s10994-023-06337-6" target="_blank" rel="noopener">The Role of Mutual Information in Variational Classifiers ↗</a> · <a href="https://www.jmlr.org/papers/v26/24-1515.html" target="_blank" rel="noopener">Fundamental Limits of Membership Inference Attacks on Machine Learning Models ↗</a></p></article>
@@ -115,8 +123,10 @@ sections:
   - block: markdown
     id: industrial-collaborations
     content:
-      title: "Industrial collaborations & research support"
+      title: ""
       text: |-
+        <h2 class="pp-home-section-title">Industrial collaborations & research support</h2>
+        
         <p class="pp-collab-lead">Connecting fundamental research in information theory and machine learning with real-world challenges.</p>
         <div class="pp-collab-strip" aria-label="Industrial collaborators and research support">
           <a class="pp-collab-item" href="https://www.airliquide.com" target="_blank" rel="noopener noreferrer" aria-label="Air Liquide — Industrial collaboration"><img class="pp-collab-logo" src="/images/collab-air-liquide-official.png" alt="Air Liquide logo" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='/images/collab-air-liquide-official.png';"><span>Industrial collaboration</span></a>
@@ -139,8 +149,10 @@ sections:
   - block: markdown
     id: selected-work
     content:
-      title: "Selected publications"
+      title: ""
       text: |-
+        <h2 class="pp-home-section-title">Selected publications</h2>
+        
         <p class="pp-section-lead">Representative papers illustrating these scientific contributions across information theory, statistical learning, and artificial intelligence. Each entry provides the publication venue, a short description, and links to the work.</p>
         <div class="pp-selected-grid">
         <article class="pp-selected-card"><img src="/images/publications/doctor.png" alt="Scientific illustration for DOCTOR: A Simple Method for Detecting Misclassification Errors" loading="lazy"><div class="pp-selected-card-body"><h3>DOCTOR: A Simple Method for Detecting Misclassification Errors</h3><span class="pp-pub-meta">NeurIPS · 2021</span><p class="pp-selected-description">Identifies potentially incorrect classifier predictions, including settings with restricted access to the model.</p><div class="pp-card-links"><a href="/papers/doctor/">Overview →</a> <a href="https://proceedings.neurips.cc/paper/2021/hash/2cb6b10338a7fc4117a80da24b582060-Abstract.html" target="_blank" rel="noopener">Paper ↗</a><a href="https://arxiv.org/abs/2106.02395" target="_blank" rel="noopener">arXiv ↗</a></div></div></article>
@@ -160,7 +172,7 @@ sections:
         <article class="pp-selected-card"><img src="/images/publications/three-terminal-interactive.png" alt="Scientific diagram illustrating The Three-Terminal Interactive Lossy Source Coding Problem" loading="lazy"><div class="pp-selected-card-body"><h3>The Three-Terminal Interactive Lossy Source Coding Problem</h3><span class="pp-pub-meta">IEEE Trans. on Information Theory · 2017</span><p class="pp-selected-description">Investigates the information-theoretic limits of interactive lossy source coding.</p><div class="pp-card-links"><a href="https://doi.org/10.1109/TIT.2016.2621749" target="_blank" rel="noopener">Paper ↗</a><a href="https://arxiv.org/abs/1502.01359" target="_blank" rel="noopener">arXiv ↗</a></div></div></article>
         <article class="pp-selected-card"><img src="/images/publications/secure-multiterminal.png" alt="Scientific diagram illustrating Secure Multiterminal Source Coding With Side Information at the Eavesdropper" loading="lazy"><div class="pp-selected-card-body"><h3>Secure Multiterminal Source Coding With Side Information at the Eavesdropper</h3><span class="pp-pub-meta">IEEE Trans. on Information Theory · 2013</span><p class="pp-selected-description">Studies secure compression of correlated information across multiple terminals when an eavesdropper has side information. Characterizes trade-offs involving communication, reconstruction, and information leakage.</p><div class="pp-card-links"><a href="https://doi.org/10.1109/TIT.2013.2245394" target="_blank" rel="noopener">Paper ↗</a><a href="https://arxiv.org/abs/1105.1658" target="_blank" rel="noopener">arXiv ↗</a></div></div></article>
         <article class="pp-selected-card"><img src="/images/publications/differential-entropy-knife.svg" alt="Scientific diagram illustrating A Differential Entropy Estimator for Training Neural Networks" loading="lazy"><div class="pp-selected-card-body"><h3>A Differential Entropy Estimator for Training Neural Networks</h3><span class="pp-pub-meta">ICML · 2022</span><p class="pp-selected-description">Develops a differential-entropy estimation approach designed for use in neural-network training. Connects continuous information measures with optimization objectives in representation learning.</p><div class="pp-card-links"><a href="https://proceedings.mlr.press/v162/pichler22a.html" target="_blank" rel="noopener">Paper ↗</a><a href="https://arxiv.org/abs/2202.06618" target="_blank" rel="noopener">arXiv ↗</a></div></div></article>
-        <article class="pp-selected-card"><img src="/images/publications/molrgen.svg" alt="Molecular generation and protein binding pocket scientific illustration" loading="lazy"><div class="pp-selected-card-body"><h3>MolRGen: A Training and Evaluation Setting for De Novo Molecular Generation with Reasonning Models</h3><span class="pp-pub-meta">Preprint · 2026</span><p class="pp-selected-description">Introduces a training and evaluation setting for de novo molecular generation using reasoning models. Examines how molecular generation can be studied through structured tasks and assessment protocols.</p><div class="pp-card-links"><a href="https://arxiv.org/abs/2603.18256" target="_blank" rel="noopener">Paper ↗</a><a href="https://arxiv.org/pdf/2603.18256" target="_blank" rel="noopener">arXiv ↗</a></div></div></article>
+        <article class="pp-selected-card"><img src="/images/publications/molrgen.svg" alt="Molecular generation and protein binding pocket scientific illustration" loading="lazy"><div class="pp-selected-card-body"><h3>MolRGen: A Training and Evaluation Setting for De Novo Molecular Generation with Reasoning Models</h3><span class="pp-pub-meta">Preprint · 2026</span><p class="pp-selected-description">Introduces a training and evaluation setting for de novo molecular generation using reasoning models. Examines how molecular generation can be studied through structured tasks and assessment protocols.</p><div class="pp-card-links"><a href="https://arxiv.org/abs/2603.18256" target="_blank" rel="noopener">Paper ↗</a><a href="https://arxiv.org/pdf/2603.18256" target="_blank" rel="noopener">arXiv ↗</a></div></div></article>
         </div>
         <p class="pp-publications-more"><a href="/publications/">View all publications →</a></p>
     design:
@@ -168,8 +180,10 @@ sections:
   - block: markdown
     id: teaching
     content:
-      title: "Teaching"
+      title: ""
       text: |-
+        <h2 class="pp-home-section-title">Teaching</h2>
+        
         <p class="pp-section-lead">My teaching connects information theory, mathematical foundations, and machine learning, through engineering courses and graduate research programmes.</p>
         <h3 class="pp-teaching-heading">Selected courses</h3>
         <div class="pp-teaching-grid">
@@ -184,9 +198,11 @@ sections:
   - block: markdown
     id: people
     content:
-      title: "People"
+      title: ""
       subtitle: "Research group and alumni"
       text: |-
+        <h2 class="pp-home-section-title">People</h2>
+        
         <h3 class="pp-people-subheading">Current PhD students and researchers</h3>
         <div class="pp-people-grid">
           <article class="pp-person-card"><div class="pp-person-avatar" aria-hidden="true"><img src="/img/students/judeson-fernando-anthony.jpg" alt="" loading="lazy" onerror="this.style.display='none'"/><span>JF</span></div><div><h4>Judeson Fernando Anthony</h4><p class="pp-person-topic">Uncertainty Estimation in Vision-Based Perception Systems for Autonomous Driving</p><p class="pp-person-affiliation"><span class="pp-flags" aria-label="Doctoral university countries">🇩🇪</span> Technische Hochschule Ingolstadt</p><p class="pp-person-cosupervision">Co-supervised with Torsten Schön</p></div></article>
@@ -360,8 +376,10 @@ sections:
   - block: markdown
     id: talks
     content:
-      title: "Talks"
+      title: ""
       text: |-
+        <h2 class="pp-home-section-title">Talks</h2>
+        
         <div class="pp-talks-intro"><p class="pp-people-eyebrow">INVITED TALKS · KEYNOTES · SEMINARS</p></div>
         <div class="pp-talks-grid">
           <article class="pp-talk-card"><div class="pp-talk-year">2026</div><div class="pp-talk-detail"><h3>Can We Trust AI to Do Science? Reasoning, Evaluation, and the Future of Scientific Discovery</h3><p class="pp-talk-venue">Keynote · AI Tech Days, VINCI Groupe</p><p class="pp-talk-place">Nanterre, France · 5 Oct 2026</p></div></article>
@@ -391,8 +409,10 @@ sections:
   - block: markdown
     id: leadership
     content:
-      title: "Research leadership & collaborations"
+      title: ""
       text: |-
+        <h2 class="pp-home-section-title">Research leadership & collaborations</h2>
+        
         <p class="pp-leadership-intro">I develop international research partnerships and collaborative programmes connecting the mathematical foundations of learning and information theory with reliable artificial intelligence. My activities combine institutional leadership, competitive research programmes, and service to the international scientific community.</p>
 
         <div class="pp-leadership-grid">
@@ -424,8 +444,10 @@ sections:
   - block: markdown
     id: contact
     content:
-      title: "Contact & Academic Profiles"
+      title: ""
       text: |-
+        <h2 class="pp-home-section-title">Contact & Academic Profiles</h2>
+        
         **Montréal, Canada · Paris-Saclay, France**
 
         <div class="pp-contact-profiles"><a href="mailto:pablo.piantanida@mila.quebec">Email</a> <span aria-hidden="true">·</span> <a href="https://scholar.google.com/citations?user=QyBEFv0AAAAJ&amp;hl=fr" target="_blank" rel="noopener">Google Scholar</a> <span aria-hidden="true">·</span> <a href="https://orcid.org/0000-0002-8717-2117" target="_blank" rel="noopener">ORCID</a> <span aria-hidden="true">·</span> <a href="https://dblp.org/pid/44/1416.html" target="_blank" rel="noopener">DBLP</a> <span aria-hidden="true">·</span> <a href="https://www.linkedin.com/in/pablo-piantanida-60a51bb5/" target="_blank" rel="noopener">LinkedIn</a> <span aria-hidden="true">·</span> <a href="/uploads/Pablo_Piantanida_CV.pdf" target="_blank" rel="noopener" type="application/pdf">Academic CV ↗</a> <span aria-hidden="true">·</span> <a href="#biography">Biography</a></div>

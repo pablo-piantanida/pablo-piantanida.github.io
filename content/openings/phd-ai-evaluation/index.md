@@ -1,7 +1,7 @@
 ---
 title: "PhD in Human-Guided Evaluation of Generative AI Systems"
 type: phd-offer
-description: "PhD opportunity within REGARD with Pablo Piantanida and Jackie Cheung. Montréal at ILLS and Mila, intended start January 2027, competitive funding, and possible Paris-Saclay–McGill cotutelle."
+description: "PhD opportunity within REGARD with Pablo Piantanida and Jackie Cheung. Montréal at ILLS and Mila, open, intended start January 2027, secured funding, and possible Paris-Saclay–McGill cotutelle."
 ---
 
 [← Prospective students and researchers](/#openings)
@@ -69,8 +69,9 @@ Experience with Python and machine learning would be valuable. Depending on the 
 ## Practical details
 
 - **Location** — Montréal, with research activities at ILLS and Mila.
+- **Availability** — Open.
 - **Intended start date** — January 2027.
-- **Funding** — Competitive funding.
+- **Funding** — Secured.
 - **Applications** — Reviewed on a rolling basis until the position is filled.
 - **Supervision** — Pablo Piantanida and Jackie Cheung, with the possibility of a cotutelle between Université Paris-Saclay and McGill University, subject to institutional arrangements.
 
