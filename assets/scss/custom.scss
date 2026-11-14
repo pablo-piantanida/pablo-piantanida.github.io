@@ -572,3 +572,8 @@ body a:not(.btn):not(.pp-button):focus {
   .pp-phd-partner-logos { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
   .pp-phd-partner-logos img { height: 60px; }
 }
+
+
+/* Use the supplied square topic illustrations at a legible size on the homepage. */
+.pp-research-card img.pp-direction-icon{width:auto;height:auto;max-width:100%;max-height:220px;object-fit:contain;margin:0 auto 1rem}
+@media(max-width:650px){.pp-research-card img.pp-direction-icon{max-height:210px}}
