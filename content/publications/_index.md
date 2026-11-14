@@ -6,14 +6,14 @@ type: page
 
 <div class="pp-bibliography">
 
-<p class="pp-bib-download"><a class="pp-button" href="/uploads/Pablo_Piantanida_Full_Publication_List.pdf">Download full publication list (PDF) ↗</a><a class="pp-button" href="/uploads/Pablo_Piantanida_Publications.bib" download>Download BibTeX (.bib) ↗</a><a class="pp-button" href="/biometrics/">Biometrics</a></p>
+<p class="pp-bib-download"><a class="pp-button" href="/uploads/Pablo_Piantanida_Full_Publication_List.pdf">Download full publication list (PDF) ↗</a><a class="pp-button" href="/uploads/Pablo_Piantanida_Publications.bib" download>Download BibTeX (.bib) ↗</a><a class="pp-button" href="/biometrics/">Publication overview</a></p><p class="pp-publication-count-note"><strong>Publication counts:</strong> The headline total of 253 comprises 60 journal articles and 193 international conference papers. The searchable catalogue contains 274 records: those 253 plus 5 preprints, 10 national conference contributions, 3 records under “Book chapters and technical reports,” and 3 theses.</p>
 <h2>Preprints and submitted manuscripts <span class="pp-bib-count">(5)</span></h2>
 <ol class="pp-bib-list">
-<li><span class="pp-bib-id">[P1]</span> P. Formont, M. Darrin, I. B. Ayed, and P. Piantanida, “MolRGen: A Training and Evaluation Setting for De Novo Molecular Generation with Reasonning Models,” 2026.<span class="pp-bib-links"><a href="https://arxiv.org/abs/2603.18256" rel="noopener noreferrer" target="_blank">arXiv ↗</a><button class="pp-copy-bib" data-bib="@misc{piantanida2026p1,
-  title = {MolRGen: A Training and Evaluation Setting for De Novo Molecular Generation with Reasonning Models},
+<li><span class="pp-bib-id">[P1]</span> P. Formont, M. Darrin, I. B. Ayed, and P. Piantanida, “MolRGen: A Training and Evaluation Setting for De Novo Molecular Generation with Reasoning Models,” 2026.<span class="pp-bib-links"><a href="https://arxiv.org/abs/2603.18256" rel="noopener noreferrer" target="_blank">arXiv ↗</a><button class="pp-copy-bib" data-bib="@misc{piantanida2026p1,
+  title = {MolRGen: A Training and Evaluation Setting for De Novo Molecular Generation with Reasoning Models},
   author = {P. Formont, M. Darrin, I. B. Ayed, and P. Piantanida},
   year = {2026},
-  note = {[P1] P. Formont, M. Darrin, I. B. Ayed, and P. Piantanida, “MolRGen: A Training and Evaluation Setting for De Novo Molecular Generation with Reasonning Models,” 2026.},
+  note = {[P1] P. Formont, M. Darrin, I. B. Ayed, and P. Piantanida, “MolRGen: A Training and Evaluation Setting for De Novo Molecular Generation with Reasoning Models,” 2026.},
   url = {https://arxiv.org/abs/2603.18256}
 }" type="button">Copy BibTeX</button></span></li>
 <li><span class="pp-bib-id">[P2]</span> M. Dubois, F. Yvon, and P. Piantanida, “How much were you told? measuring external information in peer reviews,” 2026.<span class="pp-bib-links"><a href="https://arxiv.org/abs/2609.28041" rel="noopener noreferrer" target="_blank">arXiv ↗</a><button class="pp-copy-bib" data-bib="@misc{piantanida2026p2,
