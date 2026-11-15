@@ -12,14 +12,14 @@ sections:
             <div class="pp-v6-identity">
               <p class="pp-eyebrow">PROFESSOR · RESEARCHER</p>
               <h1>Pablo Piantanida</h1>
-              <p class="pp-role">Professor, CentraleSupélec · Université Paris-Saclay<br>Director, CNRS International Laboratory on Learning Systems (ILLS)</p>
+              <p class="pp-role">Professor, CentraleSupélec · Université Paris-Saclay<br>Director, <a href="https://ills-montreal.org/">CNRS International Laboratory on Learning Systems (ILLS)</a></p>
               <div class="pp-employer-logos" aria-label="Institutional affiliations"><img class="pp-cs-saclay-logo" src="/images/logo-cs-saclay.png" alt="CentraleSupélec · Université Paris-Saclay" width="534" height="156"><img class="pp-cnrs-logo" src="/images/logo-cnrs.jpg" alt="CNRS"></div>
               <p class="pp-affiliations pp-affiliations-top"><a href="https://mila.quebec/en/directory/pablo-piantanida">Associate Academic Member, Mila</a><br>Adjunct Professor, McGill University · Adjunct Professor, ÉTS Montréal</p>
               <div class="pp-adjunct-logos"><img src="/images/logo-mcgill.jpg" alt="McGill University" width="3326" height="1081"><img src="/images/logo-ets-montreal.png" alt="ÉTS Montréal" width="800" height="517"></div>
             </div>
             <div class="pp-v6-profile">
               <img class="pp-v6-photo" src="/images/pablo-2025.jpg" alt="Portrait of Pablo Piantanida">
-              <div class="pp-v6-profile-affiliations"><div class="pp-lab-logos" aria-label="Research laboratories"><img src="/images/logo-ills.png" alt="ILLS – International Laboratory on Learning Systems"><img src="/images/logo-mila.png" alt="Mila"></div><p class="pp-caption">Paris-Saclay · Montréal</p></div>
+              <div class="pp-v6-profile-affiliations"><div class="pp-lab-logos" aria-label="Research laboratories"><a href="https://ills-montreal.org/" aria-label="ILLS — International Laboratory on Learning Systems website"><img src="/images/logo-ills.png" alt="ILLS – International Laboratory on Learning Systems"></a><img src="/images/logo-mila.png" alt="Mila"></div><p class="pp-caption">Paris-Saclay · Montréal</p></div>
             </div>
           </div>
           <section class="pp-biography" id="biography" aria-labelledby="biography-title">
@@ -29,7 +29,7 @@ sections:
               <summary>Read full biography</summary>
               <div class="pp-biography-full">
                 <p>My work connects information theory, statistical decision theory, statistics, and modern machine learning. It has evolved from the fundamental limits of communication and distributed inference toward information for learning, reasoning, and reliable decision-making. My contributions span task-relevant representations, information estimation and privacy, uncertainty and failure prediction, generative AI evaluation, and pragmatic multi-agent communication. This work has led to 253 publications, comprising 60 journal articles and 193 international conference papers. Across these areas, a central question guides my research: when does additional information, computation, or interaction improve a decision?</p>
-                <p>Since 2022, I have directed the CNRS International Research Laboratory on Learning Systems (ILLS) in Montréal. In this role, I shape its scientific strategy, develop institutional partnerships, and coordinate France–Canada research initiatives connecting foundational AI with language, healthcare, scientific discovery, and engineering.</p>
+                <p>Since 2022, I have directed the <a href="https://ills-montreal.org/">CNRS International Research Laboratory on Learning Systems (ILLS)</a> in Montréal. In this role, I shape its scientific strategy, develop institutional partnerships, and coordinate France–Canada research initiatives connecting foundational AI with language, healthcare, scientific discovery, and engineering.</p>
                 <p>My research programme for 2027–2031 brings together three directions: learning, representation, and reasoning; uncertainty, evaluation, and reliability; and collaborative and agentic intelligence. It seeks fundamental limits, decision-theoretic principles, and algorithms that account for limited resources to guide what AI systems should learn, retrieve, compute, communicate, and do—and when they should seek further evidence or defer a decision.</p>
               </div>
             </details>
@@ -419,7 +419,7 @@ sections:
           <article class="pp-leadership-card">
             <div class="pp-leadership-label">International research leadership</div>
             <h3>Building France–Canada research partnerships</h3>
-            <div class="pp-leadership-entry"><strong>ILLS · CNRS International Research Laboratory</strong><span class="pp-leadership-date">Since 2022</span><p>Director and founding scientific lead of the International Research Laboratory on Learning Systems in Montréal, connecting CNRS, McGill University, ÉTS, Mila, Université Paris-Saclay, and CentraleSupélec. I lead its scientific strategy and develop collaborative research and training initiatives.</p></div>
+            <div class="pp-leadership-entry"><strong><a href="https://ills-montreal.org/">ILLS · CNRS International Research Laboratory</a></strong><span class="pp-leadership-date">Since 2022</span><p>Director and founding scientific lead of the <a href="https://ills-montreal.org/">International Research Laboratory on Learning Systems</a> in Montréal, connecting CNRS, McGill University, ÉTS, Mila, Université Paris-Saclay, and CentraleSupélec. I lead its scientific strategy and develop collaborative research and training initiatives.</p></div>
             <div class="pp-leadership-entry"><strong><a href="https://mila.quebec/en/event/workshop-nlp-in-the-era-of-generative-ai-cognitive-sciences-and-societal-transformation" target="_blank" rel="noopener">NLP in the Era of Generative AI, Cognitive Sciences, and Societal Transformation ↗</a></strong><span class="pp-leadership-date">October 1–3, 2024 · Montréal</span><p>I co-organized this three-day France–Québec workshop at Mila. The sessions explored how generative models are changing natural language processing, what cognitive science can teach us about language learning, and how large language models affect society.</p></div>
             <div class="pp-leadership-entry"><strong>France–Canada International Research Project</strong><span class="pp-leadership-date">2017–2020</span><p>Scientific coordinator of <em>Information, Learning and Control</em>, fostering long-term research collaborations across eight institutions.</p></div>
           </article>
@@ -452,12 +452,12 @@ sections:
 
         <div class="pp-contact-profiles"><a href="mailto:pablo.piantanida@mila.quebec">Email</a> <span aria-hidden="true">·</span> <a href="https://scholar.google.com/citations?user=QyBEFv0AAAAJ&amp;hl=fr" target="_blank" rel="noopener">Google Scholar</a> <span aria-hidden="true">·</span> <a href="https://orcid.org/0000-0002-8717-2117" target="_blank" rel="noopener">ORCID</a> <span aria-hidden="true">·</span> <a href="https://dblp.org/pid/44/1416.html" target="_blank" rel="noopener">DBLP</a> <span aria-hidden="true">·</span> <a href="https://www.linkedin.com/in/pablo-piantanida-60a51bb5/" target="_blank" rel="noopener">LinkedIn</a> <span aria-hidden="true">·</span> <a href="/uploads/Pablo_Piantanida_CV.pdf" target="_blank" rel="noopener" type="application/pdf">Academic CV ↗</a> <span aria-hidden="true">·</span> <a href="#biography">Biography</a></div>
 
-        **ILLS Executive Assistant — Katia Goyette-Desjardins (she/her)**  
-        Secrétaire de direction ILLS  
+        **[ILLS](https://ills-montreal.org/) Executive Assistant — Katia Goyette-Desjardins (she/her)**  
+        Secrétaire de direction [ILLS](https://ills-montreal.org/)  
         Email: [secretariat-ills@etsmtl.ca](mailto:secretariat-ills@etsmtl.ca)  
 
         <div class="pp-contact-locations">
-          <div class="pp-location-card"><h3>ILLS · ÉTS Montréal</h3><p>1132 Rue William, Montréal, QC H3C 1P8, Canada<br>Office F-5087 · Pavillon F, 5th floor</p><p><a href="https://www.google.com/maps/search/?api=1&amp;query=1132%20Rue%20William%2C%20Montr%C3%A9al%2C%20QC%20H3C%201P8%2C%20Canada" target="_blank" rel="noopener">Open in Google Maps ↗</a></p><iframe title="Map of ILLS · ÉTS Montréal" src="https://maps.google.com/maps?q=1132%20Rue%20William%2C%20Montr%C3%A9al%2C%20QC%20H3C%201P8%2C%20Canada&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
+          <div class="pp-location-card"><h3><a href="https://ills-montreal.org/">ILLS</a> · ÉTS Montréal</h3><p>1132 Rue William, Montréal, QC H3C 1P8, Canada<br>Office F-5087 · Pavillon F, 5th floor</p><p><a href="https://www.google.com/maps/search/?api=1&amp;query=1132%20Rue%20William%2C%20Montr%C3%A9al%2C%20QC%20H3C%201P8%2C%20Canada" target="_blank" rel="noopener">Open in Google Maps ↗</a></p><iframe title="Map of ILLS · ÉTS Montréal" src="https://maps.google.com/maps?q=1132%20Rue%20William%2C%20Montr%C3%A9al%2C%20QC%20H3C%201P8%2C%20Canada&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
           <div class="pp-location-card"><h3>Mila · Québec AI Institute</h3><p>6666 Rue Saint-Urbain, Montréal, QC H2S 3H1, Canada</p><p><a href="https://www.google.com/maps/search/?api=1&amp;query=6666%20Rue%20Saint-Urbain%2C%20Montr%C3%A9al%2C%20QC%20H2S%203H1%2C%20Canada" target="_blank" rel="noopener">Open in Google Maps ↗</a></p><iframe title="Map of Mila · Québec AI Institute" src="https://maps.google.com/maps?q=6666%20Rue%20Saint-Urbain%2C%20Montr%C3%A9al%2C%20QC%20H2S%203H1%2C%20Canada&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
         </div>
     design:

@@ -8,7 +8,7 @@ organizations:
   - name: CentraleSupélec — Université Paris-Saclay
     url: https://www.centralesupelec.fr/
   - name: CNRS International Laboratory on Learning Systems (ILLS)
-    url: https://www.cnrs.fr/
+    url: https://ills-montreal.org/
   - name: Mila — Quebec AI Institute
     url: https://mila.quebec/
   - name: ÉTS Montréal
@@ -53,7 +53,7 @@ email: pablo.piantanida@mila.quebec
 highlight_name: true
 ---
 
-I am a Full Professor at CentraleSupélec, Université Paris-Saclay, and Director of the CNRS International Research Laboratory on Learning Systems (ILLS) in Montréal. I am also an Associate Academic Member of Mila and an Adjunct Professor at ÉTS Montréal.
+I am a Full Professor at CentraleSupélec, Université Paris-Saclay, and Director of the [CNRS International Research Laboratory on Learning Systems (ILLS)](https://ills-montreal.org/) in Montréal. I am also an Associate Academic Member of Mila and an Adjunct Professor at ÉTS Montréal.
 
 My research develops the mathematical and information-theoretic foundations of **reliable, adaptive, and collaborative intelligence**. At the intersection of information theory, statistical decision theory, statistics, and machine learning, I investigate how intelligent systems acquire, represent, and exchange information to learn, reason, and make decisions under uncertainty and resource constraints.
 

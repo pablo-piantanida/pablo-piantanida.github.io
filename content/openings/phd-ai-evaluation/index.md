@@ -8,7 +8,7 @@ description: "PhD opportunity within REGARD with Pablo Piantanida and Jackie Che
 
 <div class="pp-phd-partner-logos" aria-label="Research institutions">
   <img src="/images/logo-mila.png" alt="Mila" width="797" height="400">
-  <img src="/images/logo-ills.png" alt="ILLS — International Laboratory on Learning Systems" width="2504" height="1017">
+  <a href="https://ills-montreal.org/" aria-label="ILLS — International Laboratory on Learning Systems website"><img src="/images/logo-ills.png" alt="ILLS — International Laboratory on Learning Systems" width="2504" height="1017"></a>
   <img src="/images/collab-universite-paris-saclay.png" alt="Université Paris-Saclay" width="1000" height="339">
   <img src="/images/logo-mcgill.jpg" alt="McGill University" width="3326" height="1081">
 </div>
@@ -58,7 +58,7 @@ Experiments will draw on REGARD’s conversational use cases, such as simulated 
 
 The PhD will take place within **REGARD**, in collaboration with **Pablo Piantanida and Jackie Cheung**, connecting research in reliable AI, natural language processing, and the mathematical foundations of intelligent systems.
 
-Research activities will be based in **Montréal, at ILLS and Mila**. A **cotutelle between Université Paris-Saclay and McGill University may be considered**, subject to agreement and the relevant institutional arrangements.
+Research activities will be based in **Montréal, at [ILLS](https://ills-montreal.org/) and Mila**. A **cotutelle between Université Paris-Saclay and McGill University may be considered**, subject to agreement and the relevant institutional arrangements.
 
 ## Candidate profile
 
@@ -68,7 +68,7 @@ Experience with Python and machine learning would be valuable. Depending on the 
 
 ## Practical details
 
-- **Location** — Montréal, with research activities at ILLS and Mila.
+- **Location** — Montréal, with research activities at [ILLS](https://ills-montreal.org/) and Mila.
 - **Availability** — Open.
 - **Intended start date** — January 2027.
 - **Funding** — Secured.
