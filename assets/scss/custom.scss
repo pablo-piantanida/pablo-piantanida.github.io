@@ -625,3 +625,9 @@ table.pp-chart-data-table{width:100%;min-width:620px;border-collapse:collapse;fo
 .pp-chart-data-table td{text-align:right;font-variant-numeric:tabular-nums;}
 .pp-chart-data-table th[scope=row]{text-align:left;min-width:10rem;}
 @media(max-width:767px){.pp-home-section-title{font-size:2rem}.pp-publication-count-note{margin-bottom:1.6rem;}}
+
+/* Version 7.3 — allocate a real flex slot to the linked ILLS logo. */
+.pp-v6 .pp-lab-logos > a {display:flex;flex:0 0 48%;align-items:center;justify-content:center;min-width:0;}
+.pp-v6 .pp-lab-logos > a > img {display:block;width:100%;max-width:100%;height:auto;max-height:82px;object-fit:contain;}
+@media(max-width:650px){.pp-v6 .pp-lab-logos > a{flex-basis:48%}.pp-v6 .pp-lab-logos > a > img{max-height:56px}}
+@media(max-width:420px){.pp-v6 .pp-lab-logos > a{flex-basis:85%}.pp-v6 .pp-lab-logos > a > img{max-height:40px}}
