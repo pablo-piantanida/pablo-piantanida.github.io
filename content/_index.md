@@ -14,7 +14,7 @@ sections:
               <h1>Pablo Piantanida</h1>
               <p class="pp-role">Professor, <a href="https://www.centralesupelec.fr/">CentraleSupélec</a> · <a href="https://www.universite-paris-saclay.fr/">Université Paris-Saclay</a><br>Director, <a href="https://ills-montreal.org/">CNRS International Laboratory on Learning Systems (ILLS)</a></p>
               <div class="pp-employer-logos" aria-label="Institutional affiliations"><img class="pp-cs-saclay-logo" src="/images/logo-cs-saclay.png" alt="CentraleSupélec · Université Paris-Saclay" width="534" height="156"><img class="pp-cnrs-logo" src="/images/logo-cnrs.jpg" alt="CNRS"></div>
-              <p class="pp-affiliations pp-affiliations-top"><a href="https://mila.quebec/en/directory/pablo-piantanida">Associate Academic Member, Mila</a><br>Adjunct Professor, McGill University · Adjunct Professor, ÉTS Montréal</p>
+              <p class="pp-affiliations pp-affiliations-top"><a href="https://mila.quebec/en/directory/pablo-piantanida">Associate Academic Member, Mila</a><br>Adjunct Professor, <a href="https://www.mcgill.ca/">McGill University</a> · Adjunct Professor, <a href="https://www.etsmtl.ca/">ÉTS Montréal</a></p>
               <div class="pp-adjunct-logos"><img src="/images/logo-mcgill.jpg" alt="McGill University" width="3326" height="1081"><img src="/images/logo-ets-montreal.png" alt="ÉTS Montréal" width="800" height="517"></div>
             </div>
             <div class="pp-v6-profile">
