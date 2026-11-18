@@ -632,10 +632,10 @@ table.pp-chart-data-table{width:100%;min-width:620px;border-collapse:collapse;fo
 @media(max-width:650px){.pp-v6 .pp-lab-logos > a{flex-basis:48%}.pp-v6 .pp-lab-logos > a > img{max-height:56px}}
 @media(max-width:420px){.pp-v6 .pp-lab-logos > a{flex-basis:85%}.pp-v6 .pp-lab-logos > a > img{max-height:40px}}
 
-/* Version 7.13 — add a subtle textured chalkboard behind selected publication figures. */
+/* Version 7.14 — use the supplied slate-chalkboard texture behind selected figures. */
 .pp-selected-card {
-  background-color: #202428;
-  background-image: linear-gradient(rgba(18, 22, 26, .72), rgba(18, 22, 26, .72)), url('/images/publications/chalkboard-texture-v1.jpg');
+  background-color: #3d424c;
+  background-image: url('/images/publications/chalkboard-texture-v2.jpg');
   background-position: center;
   background-size: cover;
   isolation: isolate;
