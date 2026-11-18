@@ -640,10 +640,11 @@ body a:not(.btn):not(.pp-button):focus {
 }
 @media(max-width:650px){.pp-research-figure{max-width:280px}}
 
-/* Stack the Applications illustration above its text on every screen size. */
-.pp-applications-card{grid-template-columns:1fr;align-items:start}
-.pp-applications-card img{width:100%;max-width:560px;height:auto;margin:0 auto}
-@media(max-width:700px){.pp-applications-card{grid-template-columns:1fr}.pp-applications-card img{max-width:100%}}
+/* Keep the Applications figure separate, with all copy at full width below it. */
+.pp-applications-card{display:block}
+.pp-applications-copy{min-width:0}
+.pp-applications-figure{float:none;width:100%;max-width:560px;margin:0 0 1rem}
+@media(max-width:650px){.pp-applications-figure{width:100%;max-width:100%;margin:0 0 1rem}}
 
 
 /* Accessible section headings and publication-chart data tables. */
