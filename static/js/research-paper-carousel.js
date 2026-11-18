@@ -11,8 +11,7 @@
     let active = 0;
     let timer = null;
     let scrollFrame = 0;
-    let pausedByUser = reducedMotion.matches;
-    let pointerOver = false;
+    let pausedByUser = false;
 
     const wrap = index => (index + slides.length) % slides.length;
 
@@ -35,13 +34,16 @@
 
     const schedule = () => {
       stopTimer();
-      if (pausedByUser || pointerOver || document.hidden) return;
-      timer = window.setTimeout(() => goTo(active + 1), 7000);
+      if (pausedByUser || document.hidden) return;
+      timer = window.setTimeout(() => goTo(active + 1), 5000);
     };
 
     const goTo = (index, behavior = reducedMotion.matches ? 'auto' : 'smooth') => {
       const target = wrap(index);
-      viewport.scrollTo({ left: slides[target].offsetLeft, behavior });
+      const left = slides[target].getBoundingClientRect().left
+        - viewport.getBoundingClientRect().left
+        + viewport.scrollLeft;
+      viewport.scrollTo({ left, behavior });
       update(target);
       schedule();
     };
@@ -49,15 +51,6 @@
     toggle.addEventListener('click', () => {
       pausedByUser = !pausedByUser;
       updateToggle();
-      schedule();
-    });
-
-    viewport.addEventListener('pointerenter', () => {
-      pointerOver = true;
-      stopTimer();
-    });
-    viewport.addEventListener('pointerleave', () => {
-      pointerOver = false;
       schedule();
     });
 
@@ -78,14 +71,6 @@
 
     document.addEventListener('visibilitychange', schedule);
     window.addEventListener('resize', () => goTo(active, 'auto'));
-    reducedMotion.addEventListener?.('change', event => {
-      if (event.matches) {
-        pausedByUser = true;
-        updateToggle();
-      }
-      schedule();
-    });
-
     update(0);
     updateToggle();
     schedule();
