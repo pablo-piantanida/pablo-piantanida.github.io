@@ -616,27 +616,30 @@ body a:not(.btn):not(.pp-button):focus {
   max-width: 320px;
   aspect-ratio: 1 / 1;
   box-sizing: border-box;
-  padding: 12px;
+  padding: 0;
   margin: 0 auto 1rem;
   overflow: hidden;
   border-radius: 8px;
   background-color: #3d424c;
   background-image: url('/images/publications/chalkboard-texture-v2.jpg');
   background-position: center;
-  background-size: cover;
+  background-size: 100% 100%;
   isolation: isolate;
 }
 .pp-research-figure .pp-direction-icon {
   display: block;
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
   object-fit: contain;
   object-position: center;
   margin: 0;
   background: transparent;
   mix-blend-mode: screen;
+}
+.pp-research-grid > .pp-research-card .pp-research-figure {
+  padding: 16px 12px 8px;
 }
 @media(max-width:650px){.pp-research-figure{max-width:280px}}
 
