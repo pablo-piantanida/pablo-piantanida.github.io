@@ -615,6 +615,8 @@ body a:not(.btn):not(.pp-button):focus {
   width: 100%;
   max-width: 320px;
   aspect-ratio: 1 / 1;
+  box-sizing: border-box;
+  padding: 12px;
   margin: 0 auto 1rem;
   overflow: hidden;
   border-radius: 8px;
